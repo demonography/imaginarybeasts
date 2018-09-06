@@ -1,4 +1,9 @@
 {
+    "creatureFeature": [
+        {
+          "title": "test"
+        }
+    ],
     "features": [
         {
             "title": "Basic configuration and folder structure"
@@ -22,15 +27,22 @@
             "title": "SVG sprites: Add your icons in `components/icon` as .icon files and use them."
         }
     ],
-    "howTo": [
+    "currently": [
         {
-            "title": "Prepare a coffee"
+          "currentlyReading": {
+              "title": "book",
+              "author": "author",
+              "link": "link",
+              "liked": "liked"
+          }
         },
         {
-            "title": "Run: `npm i` to install the dependencies"
-        },
-        {
-            "title": "Start coding!"
+          "currentlyReading": {
+              "title": "book",
+              "author": "author",
+              "link": "link",
+              "liked": "liked"
+          }
         }
     ]
 }

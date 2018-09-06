@@ -1,5 +1,6 @@
 .header {
     width: 100%;
+    font-size: 0.75rem;
     &-content {
         height: 120px;
         display: flex;
@@ -14,7 +15,7 @@
         align-items: center;
         justify-content: space-between;
         &-item {
-            margin-right: 10px;
+            margin-right: 16px;
         }
     }
 }
