@@ -2,6 +2,6 @@
 Portfolio website.
 
 ### Uses
-*  [Node.js](http://nodejs.org): for all the magic
+*  [Node.js](http://nodejs.org)
 *  [Gatsby](https://www.gatsbyjs.org/docs/)
 *  [Gatsby React Boilerplate](https://github.com/PrototypeInteractive/gatsby-react-boilerplate)
