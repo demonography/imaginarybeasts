@@ -1,0 +1,2 @@
+webpackJsonp([0x81b8806e4260],{252:function(t,n){t.exports={data:{allDataJson:{edges:[{node:{currently:[{currentlyReading:{title:"book",author:"author",link:"link"}},{currentlyReading:{title:"book",author:"author",link:"link"}}]}}]}},pathContext:{}}}});
+//# sourceMappingURL=path---index-5e10d9328f3c4afc15da.js.map

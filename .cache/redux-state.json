@@ -1,0 +1,1659 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/iriswong/Sandbox/personal/imaginarybeasts/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "0028bb9aa344781b1c70c6a6e286d423",
+        "description": "Plugin dev-404-page",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "0759a8a18e798e07fee5835624710c40",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createLayouts"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "0e686692ab68bae64ead3ed155ac3786",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "aa8c97e0ff710744286859c12a38883f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "fb02932a7ddba6daf189852b2f1b0594",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage",
+        "onCreateLayout"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b24587dc4952576306ef2c37b3f462ea",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-next": {
+      "resolve": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby-plugin-react-next",
+      "id": "Plugin gatsby-plugin-react-next",
+      "name": "gatsby-plugin-react-next",
+      "version": "1.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby-plugin-react-next",
+      "packageJson": {
+        "name": "gatsby-plugin-react-next",
+        "description": "Use React 16 with your Gatsby v1 site",
+        "version": "1.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "core-js",
+            "version": "^2.5.1"
+          },
+          {
+            "name": "react",
+            "version": "^16.0.0"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "69a185de77241a3b779673c641f45209",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "1.0.8",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Stub description for gatsby-plugin-react-helmet",
+        "version": "1.0.8",
+        "main": "index.js",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": {
+          "name": "Kyle Mathews &lt;mathews.kyle@gmail.com&gt;"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e876a765489d4cb02f0567159f49e8f5",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin svgo": {
+      "resolve": "/Users/iriswong/Sandbox/personal/imaginarybeasts/plugins/svgo",
+      "name": "svgo",
+      "id": "Plugin svgo",
+      "version": "0a05c8c1c730618c6be93b3fbc6f8aa3",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/plugins/svgo",
+      "packageJson": {
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ab4f020078cb2ea27b6cc6e87631d787",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-sharp": {
+      "resolve": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby-transformer-sharp",
+      "id": "Plugin gatsby-transformer-sharp",
+      "name": "gatsby-transformer-sharp",
+      "version": "1.6.27",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "1.6.27",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "aaf416a6311d4d2fd6d9e8a196eec2e1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sharp": {
+      "resolve": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby-plugin-sharp",
+      "id": "Plugin gatsby-plugin-sharp",
+      "name": "gatsby-plugin-sharp",
+      "version": "1.6.48",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "1.6.48",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^5.2.2"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "5.0.1"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.0"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "113ca4d8b7b3e2439d3ed33a29c10bb4",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-page-transitions": {
+      "resolve": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby-plugin-page-transitions",
+      "id": "Plugin gatsby-plugin-page-transitions",
+      "name": "gatsby-plugin-page-transitions",
+      "version": "1.0.7",
+      "pluginOptions": {
+        "plugins": [],
+        "transitionTime": 500
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onClientEntry",
+        "replaceHistory"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby-plugin-page-transitions",
+      "packageJson": {
+        "name": "gatsby-plugin-page-transitions",
+        "description": "Gatsby plugin to set page transitions",
+        "version": "1.0.7",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "page",
+          "transitions",
+          "page-transitions"
+        ],
+        "author": {
+          "name": "Mong-Kuen Sun",
+          "email": "mongkuen.sun@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "history",
+            "version": "^4.7.2"
+          },
+          {
+            "name": "prop-types",
+            "version": "^15.6.2"
+          },
+          {
+            "name": "react-transition-group",
+            "version": "^2.4.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-preset-es2015",
+            "version": "^6.24.1"
+          },
+          {
+            "name": "babel-preset-react",
+            "version": "^6.24.1"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "concurrently",
+            "version": "^3.6.0"
+          },
+          {
+            "name": "onchange",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "prettier",
+            "version": "^1.13.7"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "389b7325a43ae405d4901d3575dcf4e5",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-postcss-sass": {
+      "resolve": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby-plugin-postcss-sass",
+      "id": "Plugin gatsby-plugin-postcss-sass",
+      "name": "gatsby-plugin-postcss-sass",
+      "version": "1.0.22",
+      "pluginOptions": {
+        "plugins": [],
+        "postCssPlugins": [
+          null,
+          null
+        ],
+        "precision": 8
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby-plugin-postcss-sass",
+      "packageJson": {
+        "name": "gatsby-plugin-postcss-sass",
+        "description": "Gatsby plugin to handle scss/sass files with integrated support for also processing with Postcss plugins",
+        "version": "1.0.22",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "postcss",
+          "sass",
+          "scss"
+        ],
+        "author": {
+          "name": "Scotty Eckenthal",
+          "email": "scotty@meetfabric.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "gatsby-1-config-css-modules",
+            "version": "^1.0.11"
+          },
+          {
+            "name": "gatsby-1-config-extract-plugin",
+            "version": "^1.0.3"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.5.2"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^4.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "be1d63323769bebe6063eb53b7705f24",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "1.5.39",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "data",
+        "path": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/data/"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "1.5.39",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^1.3.6"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.9.250"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "85b66ddff1edc33f723f4af83c3f4e8f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-json": {
+      "resolve": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby-transformer-json",
+      "id": "Plugin gatsby-transformer-json",
+      "name": "gatsby-transformer-json",
+      "version": "1.0.20",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby-transformer-json",
+      "packageJson": {
+        "name": "gatsby-transformer-json",
+        "description": "Gatsby transformer plugin for JSON files",
+        "version": "1.0.20",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "json"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8e6f53915ca7a9d218a374155a9d3883",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/Users/iriswong/Sandbox/personal/imaginarybeasts",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "56b7e15289666dce8fe271a41530a9ac",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/iriswong/Sandbox/personal/imaginarybeasts",
+      "packageJson": {
+        "name": "gatsby-react-boilerplate",
+        "description": "",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Prototype Interactive",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "basic-auth",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "compression",
+            "version": "^1.7.3"
+          },
+          {
+            "name": "debug",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "eslint-plugin-node",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "express",
+            "version": "^4.16.3"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^1.0.55"
+          },
+          {
+            "name": "gatsby-plugin-page-transitions",
+            "version": "^1.0.7"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.48"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^1.6.27"
+          },
+          {
+            "name": "helmet",
+            "version": "^3.13.0"
+          },
+          {
+            "name": "serve-static",
+            "version": "^1.13.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "autoprefixer",
+            "version": "^7.2.6"
+          },
+          {
+            "name": "bootstrap",
+            "version": "^4.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "eslint",
+            "version": "^5.5.0"
+          },
+          {
+            "name": "eslint-config-airbnb",
+            "version": "^15.1.0"
+          },
+          {
+            "name": "eslint-plugin-import",
+            "version": "^2.14.0"
+          },
+          {
+            "name": "eslint-plugin-jsx-a11y",
+            "version": "^6.1.1"
+          },
+          {
+            "name": "eslint-plugin-react",
+            "version": "^7.11.1"
+          },
+          {
+            "name": "gatsby",
+            "version": "^1.9.277"
+          },
+          {
+            "name": "gatsby-cli",
+            "version": "^1.1.58"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.6.46"
+          },
+          {
+            "name": "gatsby-plugin-google-analytics",
+            "version": "^1.0.31"
+          },
+          {
+            "name": "gatsby-plugin-postcss-sass",
+            "version": "^1.0.22"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^1.0.8"
+          },
+          {
+            "name": "gatsby-plugin-react-next",
+            "version": "^1.0.11"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^1.5.39"
+          },
+          {
+            "name": "gatsby-transformer-json",
+            "version": "^1.0.20"
+          },
+          {
+            "name": "gh-pages",
+            "version": "^1.2.0"
+          },
+          {
+            "name": "pixrem",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "shx",
+            "version": "^0.2.2"
+          },
+          {
+            "name": "svg-sprite-loader",
+            "version": "^3.9.2"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "7adab4f9103765229d34b52636e069c1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-page-creator": {
+      "resolve": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby-plugin-page-creator",
+      "id": "Plugin gatsby-plugin-page-creator",
+      "name": "gatsby-plugin-page-creator",
+      "version": "1.0.1",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "1.0.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "034b44d06b1cca6008930e2cd7d07cd5",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "imaginary beasts"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-10-14T19:47:46.277Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "06667010d76dc0e35389cd50f91fb657",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/ absPath of file": {
+      "id": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/ absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c4cb3349f9614c11ed99b5bbc4d57bb7",
+        "type": "Directory",
+        "description": "Directory \"src/img\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "img",
+      "absolutePath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/",
+      "relativePath": "",
+      "extension": "",
+      "size": 192,
+      "prettySize": "192 B",
+      "modifiedTime": "2018-09-10T02:18:29.788Z",
+      "accessTime": "2018-10-14T19:47:48.764Z",
+      "changeTime": "2018-09-10T02:18:29.788Z",
+      "birthTime": "2018-08-26T23:39:36.597Z",
+      "root": "/",
+      "dir": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src",
+      "base": "img",
+      "ext": "",
+      "name": "img",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 6,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4526948,
+      "blocks": 0,
+      "atimeMs": 1539546468763.6096,
+      "mtimeMs": 1536545909787.6035,
+      "ctimeMs": 1536545909787.6035,
+      "birthtimeMs": 1535326776596.772,
+      "atime": "2018-10-14T19:47:48.764Z",
+      "mtime": "2018-09-10T02:18:29.788Z",
+      "ctime": "2018-09-10T02:18:29.788Z",
+      "birthtime": "2018-08-26T23:39:36.597Z"
+    },
+    "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/dragonface.png absPath of file": {
+      "id": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/dragonface.png absPath of file",
+      "children": [
+        "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/dragonface.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "fe78780a0c13f468be313701db8e54e0",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/img/dragonface.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "img",
+      "absolutePath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/dragonface.png",
+      "relativePath": "dragonface.png",
+      "extension": "png",
+      "size": 178979,
+      "prettySize": "179 kB",
+      "modifiedTime": "2017-02-12T04:22:14.000Z",
+      "accessTime": "2018-09-10T02:02:10.821Z",
+      "changeTime": "2018-08-26T23:39:38.812Z",
+      "birthTime": "2017-02-12T04:22:14.000Z",
+      "root": "/",
+      "dir": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img",
+      "base": "dragonface.png",
+      "ext": ".png",
+      "name": "dragonface",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4526954,
+      "blocks": 352,
+      "atimeMs": 1536544930820.9463,
+      "mtimeMs": 1486873334000,
+      "ctimeMs": 1535326778811.6729,
+      "birthtimeMs": 1486873334000,
+      "atime": "2018-09-10T02:02:10.821Z",
+      "mtime": "2017-02-12T04:22:14.000Z",
+      "ctime": "2018-08-26T23:39:38.812Z",
+      "birthtime": "2017-02-12T04:22:14.000Z"
+    },
+    "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/dragonface.png absPath of file >> ImageSharp": {
+      "id": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/dragonface.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/dragonface.png absPath of file",
+      "internal": {
+        "contentDigest": "fe78780a0c13f468be313701db8e54e0",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/forestsphinx_placeholder.jpg absPath of file": {
+      "id": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/forestsphinx_placeholder.jpg absPath of file",
+      "children": [
+        "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/forestsphinx_placeholder.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "84eac46d04b0ecb9b72a9912c0340d93",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/img/forestsphinx_placeholder.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "img",
+      "absolutePath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/forestsphinx_placeholder.jpg",
+      "relativePath": "forestsphinx_placeholder.jpg",
+      "extension": "jpg",
+      "size": 446466,
+      "prettySize": "446 kB",
+      "modifiedTime": "2018-09-06T00:17:41.312Z",
+      "accessTime": "2018-09-10T02:02:10.821Z",
+      "changeTime": "2018-09-06T00:17:41.520Z",
+      "birthTime": "2018-09-06T00:17:41.139Z",
+      "root": "/",
+      "dir": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img",
+      "base": "forestsphinx_placeholder.jpg",
+      "ext": ".jpg",
+      "name": "forestsphinx_placeholder",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4829148,
+      "blocks": 880,
+      "atimeMs": 1536544930820.94,
+      "mtimeMs": 1536193061311.9983,
+      "ctimeMs": 1536193061520.4058,
+      "birthtimeMs": 1536193061139.2766,
+      "atime": "2018-09-10T02:02:10.821Z",
+      "mtime": "2018-09-06T00:17:41.312Z",
+      "ctime": "2018-09-06T00:17:41.520Z",
+      "birthtime": "2018-09-06T00:17:41.139Z"
+    },
+    "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/forestsphinx_placeholder.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/forestsphinx_placeholder.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/forestsphinx_placeholder.jpg absPath of file",
+      "internal": {
+        "contentDigest": "84eac46d04b0ecb9b72a9912c0340d93",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/water-surprise.png absPath of file": {
+      "id": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/water-surprise.png absPath of file",
+      "children": [
+        "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/water-surprise.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "43afded2a0178f7ab51ff2bc3e70cac1",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/img/water-surprise.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "img",
+      "absolutePath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/water-surprise.png",
+      "relativePath": "water-surprise.png",
+      "extension": "png",
+      "size": 188834,
+      "prettySize": "189 kB",
+      "modifiedTime": "2018-09-10T02:11:37.702Z",
+      "accessTime": "2018-09-10T02:11:54.407Z",
+      "changeTime": "2018-09-10T02:11:54.340Z",
+      "birthTime": "2018-09-10T02:11:37.332Z",
+      "root": "/",
+      "dir": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img",
+      "base": "water-surprise.png",
+      "ext": ".png",
+      "name": "water-surprise",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 5211732,
+      "blocks": 376,
+      "atimeMs": 1536545514406.5254,
+      "mtimeMs": 1536545497701.575,
+      "ctimeMs": 1536545514339.9153,
+      "birthtimeMs": 1536545497331.606,
+      "atime": "2018-09-10T02:11:54.407Z",
+      "mtime": "2018-09-10T02:11:37.702Z",
+      "ctime": "2018-09-10T02:11:54.340Z",
+      "birthtime": "2018-09-10T02:11:37.332Z"
+    },
+    "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/data/ absPath of file": {
+      "id": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/data/ absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "e9d93062967ec9969ef060a48490f660",
+        "type": "Directory",
+        "description": "Directory \"src/data\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/data/",
+      "relativePath": "",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2018-08-26T23:42:58.308Z",
+      "accessTime": "2018-10-14T19:47:48.776Z",
+      "changeTime": "2018-08-26T23:42:58.308Z",
+      "birthTime": "2018-08-24T02:57:04.266Z",
+      "root": "/",
+      "dir": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src",
+      "base": "data",
+      "ext": "",
+      "name": "data",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4399975,
+      "blocks": 0,
+      "atimeMs": 1539546468775.6694,
+      "mtimeMs": 1535326978307.5916,
+      "ctimeMs": 1535326978307.5916,
+      "birthtimeMs": 1535079424266.4307,
+      "atime": "2018-10-14T19:47:48.776Z",
+      "mtime": "2018-08-26T23:42:58.308Z",
+      "ctime": "2018-08-26T23:42:58.308Z",
+      "birthtime": "2018-08-24T02:57:04.266Z"
+    },
+    "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/data/.DS_Store absPath of file": {
+      "id": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/data/.DS_Store absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "194577a7e20bdcc7afbb718f502c134c",
+        "mediaType": "application/octet-stream",
+        "type": "File",
+        "description": "File \"src/data/.DS_Store\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/data/.DS_Store",
+      "relativePath": ".DS_Store",
+      "extension": "",
+      "size": 6148,
+      "prettySize": "6.15 kB",
+      "modifiedTime": "2018-09-06T00:17:32.190Z",
+      "accessTime": "2018-09-06T00:17:32.189Z",
+      "changeTime": "2018-09-06T00:17:32.190Z",
+      "birthTime": "2018-08-26T23:39:38.738Z",
+      "root": "/",
+      "dir": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/data",
+      "base": ".DS_Store",
+      "ext": "",
+      "name": ".DS_Store",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4526953,
+      "blocks": 16,
+      "atimeMs": 1536193052188.917,
+      "mtimeMs": 1536193052190.1855,
+      "ctimeMs": 1536193052190.1855,
+      "birthtimeMs": 1535326778737.6255,
+      "atime": "2018-09-06T00:17:32.189Z",
+      "mtime": "2018-09-06T00:17:32.190Z",
+      "ctime": "2018-09-06T00:17:32.190Z",
+      "birthtime": "2018-08-26T23:39:38.738Z"
+    },
+    "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/data/data.json absPath of file": {
+      "id": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/data/data.json absPath of file",
+      "children": [
+        "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/data/data.json absPath of file >>> JSON"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "74244901345677b72954c85741d4fa57",
+        "mediaType": "application/json",
+        "type": "File",
+        "description": "File \"src/data/data.json\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/data/data.json",
+      "relativePath": "data.json",
+      "extension": "json",
+      "size": 1118,
+      "prettySize": "1.12 kB",
+      "modifiedTime": "2018-09-06T02:08:15.124Z",
+      "accessTime": "2018-09-06T02:49:23.822Z",
+      "changeTime": "2018-09-06T02:08:15.124Z",
+      "birthTime": "2018-08-24T02:57:04.266Z",
+      "root": "/",
+      "dir": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/data",
+      "base": "data.json",
+      "ext": ".json",
+      "name": "data",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4399976,
+      "blocks": 8,
+      "atimeMs": 1536202163822.1204,
+      "mtimeMs": 1536199695123.6404,
+      "ctimeMs": 1536199695123.6404,
+      "birthtimeMs": 1535079424266.478,
+      "atime": "2018-09-06T02:49:23.822Z",
+      "mtime": "2018-09-06T02:08:15.124Z",
+      "ctime": "2018-09-06T02:08:15.124Z",
+      "birthtime": "2018-08-24T02:57:04.266Z"
+    },
+    "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/data/data.json absPath of file >>> JSON": {
+      "creatureFeature": [
+        {
+          "title": "test"
+        }
+      ],
+      "features": [
+        {
+          "title": "Basic configuration and folder structure"
+        },
+        {
+          "title": "Uses postcss and sass with autoprefixer"
+        },
+        {
+          "title": "Uses Bootstrap 4"
+        },
+        {
+          "title": "Leaves the styling to you"
+        },
+        {
+          "title": "Uses data from local json files"
+        },
+        {
+          "title": "Contains Node.js server code for easy, secure, and fast hosting"
+        },
+        {
+          "title": "SVG sprites: Add your icons in `components/icon` as .icon files and use them."
+        }
+      ],
+      "currently": [
+        {
+          "currentlyReading": {
+            "title": "book",
+            "author": "author",
+            "link": "link",
+            "liked": "liked"
+          }
+        },
+        {
+          "currentlyReading": {
+            "title": "book",
+            "author": "author",
+            "link": "link",
+            "liked": "liked"
+          }
+        }
+      ],
+      "id": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/data/data.json absPath of file >>> JSON",
+      "children": [],
+      "parent": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/data/data.json absPath of file",
+      "internal": {
+        "contentDigest": "a252894eae4e3e430db953656d46f574",
+        "type": "DataJson",
+        "owner": "gatsby-transformer-json"
+      }
+    },
+    "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/water-surprise.png absPath of file >> ImageSharp": {
+      "id": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/water-surprise.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/water-surprise.png absPath of file",
+      "internal": {
+        "contentDigest": "43afded2a0178f7ab51ff2bc3e70cac1",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/water-surprise-animated.gif absPath of file": {
+      "id": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/water-surprise-animated.gif absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "7e81268a2e0cf85164ce8203d57284be",
+        "mediaType": "image/gif",
+        "type": "File",
+        "description": "File \"src/img/water-surprise-animated.gif\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "img",
+      "absolutePath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/water-surprise-animated.gif",
+      "relativePath": "water-surprise-animated.gif",
+      "extension": "gif",
+      "size": 514860,
+      "prettySize": "515 kB",
+      "modifiedTime": "2018-09-10T02:18:29.787Z",
+      "accessTime": "2018-09-10T02:18:29.703Z",
+      "changeTime": "2018-09-10T02:18:29.909Z",
+      "birthTime": "2018-09-10T02:18:29.703Z",
+      "root": "/",
+      "dir": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img",
+      "base": "water-surprise-animated.gif",
+      "ext": ".gif",
+      "name": "water-surprise-animated",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 5211991,
+      "blocks": 1008,
+      "atimeMs": 1536545909702.7036,
+      "mtimeMs": 1536545909787.2405,
+      "ctimeMs": 1536545909908.6047,
+      "birthtimeMs": 1536545909702.7036,
+      "atime": "2018-09-10T02:18:29.703Z",
+      "mtime": "2018-09-10T02:18:29.787Z",
+      "ctime": "2018-09-10T02:18:29.909Z",
+      "birthtime": "2018-09-10T02:18:29.703Z"
+    },
+    "SitePage /about/": {
+      "layout": "index",
+      "jsonName": "about.json",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "b27137528a7e50a73110512fa9233289",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "36c22565203b6d8f889bebbcd014bca3",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "852f3dd1142aa559b64bc55438841679"
+  },
+  "componentDataDependencies": {
+    "nodes": {},
+    "connections": {
+      "SitePage": [
+        "/dev-404-page/"
+      ],
+      "DataJson": [
+        "/"
+      ]
+    }
+  }
+}
