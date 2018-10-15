@@ -1,31 +1,30 @@
-extends:
-  - eslint:recommended
-  - plugin:node/recommended
-  - prettier
-plugins:
-  - node
-  - prettier
-parserOptions:
-  ecmaVersion: 2016
-env:
-  node: true
-  es6: true
-rules:
-  comma-dangle:
-    - warn
-    - never
-  max-len:
-    - warn
-    -
-      code: 100
-  no-console: warn
-  no-unexpected-multiline: off
-  no-unused-vars: warn
-  object-curly-spacing:
-    - warn
-    - always
-  prettier/prettier:
-    - warn
-    -
-      printWidth: 100
-      trailingComma: none
+{
+    "env": {
+        "es6": true,
+        "browser": true,
+        "node": true,
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:node/recommended",
+        "prettier"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 8,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "prettier"
+    ],
+    "rules": {
+        "indent": ["warn", 4, {
+            "SwitchCase": 1
+        }],
+        "linebreak-style": ["warn", "unix"],
+        "quotes": ["warn", "single"],
+        "no-console": ["off"],
+        "no-unused-vars": ["warn"],
+        "no-undef":  ["warn"],
+        "semi": ["warn", "always"]
+    }
+}

@@ -17,7 +17,7 @@ const Header = () => (
                   <Link to="/about/">About</Link>
                 </li>
                 <li className="header-nav-list-item">
-                  <a href="#howto">How To</a>
+                  <a target="_blank" href="http://bestiaire.tumblr.com/">Sketchbook</a>
                 </li>
               </ul>
             </nav>

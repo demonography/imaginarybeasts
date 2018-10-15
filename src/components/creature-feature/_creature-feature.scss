@@ -1,4 +1,7 @@
 .i-creature-feature {
-  background: center / cover no-repeat url('../../img/forestsphinx_placeholder.jpg');
-  height: 75vh;
+  background: center / contain no-repeat url('../../img/water-surprise-animated.gif');
+  height: 70vh;
+  @media (max-width: 900px) {
+    height: 500px;
+  }
 }
