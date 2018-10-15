@@ -1,7 +1,7 @@
 # i m a g i n a r y b e a s t s
-Portfolio website.
+Ris's portfolio website.
 
-![dragonface](https://github.com/demonography/imaginarybeasts/static/dragonface.png)
+![dragonface](https://github.com/demonography/imaginarybeasts/blob/master/src/img/dragonface.png)
 
 ### Uses
 *  [Node.js](http://nodejs.org)
