@@ -9,7 +9,6 @@ const IndexPage = props => (
   <PageTransition>
     <main>
       <CreatureFeature />
-      <Currently data={props.data.allDataJson.edges[0].node.currently} />
     </main>
   </PageTransition>
 );
