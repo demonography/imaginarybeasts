@@ -2,3 +2,4 @@
 /gruntfile.js
 /package.json
 /.sass-cache
+.cache/

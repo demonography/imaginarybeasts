@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './_how-to.scss';
+import './_currently.scss';
 import Img from "gatsby-image";
 
 const NewsListing = props =>

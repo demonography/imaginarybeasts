@@ -1,16 +1,16 @@
 /* global graphql */
 
 import React from "react";
-import PageTransition from 'gatsby-plugin-page-transitions';
+import PageTransition from "gatsby-plugin-page-transitions";
 import Currently from "../components/currently";
 import CreatureFeature from "../components/creature-feature";
 
 const IndexPage = props => (
   <PageTransition>
-  <main>
-    <CreatureFeature />
-    <Currently data={props.data.allDataJson.edges[0].node.currently} />
-  </main>
+    <main>
+      <CreatureFeature />
+      <Currently data={props.data.allDataJson.edges[0].node.currently} />
+    </main>
   </PageTransition>
 );
 
@@ -23,10 +23,10 @@ export const pageQuery = graphql`
         node {
           currently {
             currentlyReading {
-            title
-            author
-            link
-          }
+              title
+              author
+              link
+            }
           }
         }
       }
