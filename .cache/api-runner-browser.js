@@ -1,5 +1,5 @@
 var plugins = [{
-      plugin: require('/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby-plugin-page-transitions/gatsby-browser'),
+      plugin: require('/Users/nox/Sandbox/imaginarybeasts/node_modules/gatsby-plugin-page-transitions/gatsby-browser'),
       options: {"plugins":[],"transitionTime":500},
     }]
 // During bootstrap, we write requires at top of this file which looks

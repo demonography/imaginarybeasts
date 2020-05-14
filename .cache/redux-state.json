@@ -1,28 +1,18 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "layout": "index",
-      "jsonName": "dev-404-page.json",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/iriswong/Sandbox/personal/imaginarybeasts/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0028bb9aa344781b1c70c6a6e286d423",
-        "description": "Plugin dev-404-page",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin dev-404-page": {
-      "resolve": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "resolve": "/Users/nox/Sandbox/imaginarybeasts/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "id": "Plugin dev-404-page",
       "name": "dev-404-page",
       "version": "1.0.0",
@@ -34,7 +24,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "pluginFilepath": "/Users/nox/Sandbox/imaginarybeasts/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "packageJson": {
         "name": "dev-404-page",
         "description": "Internal plugin to add a 404 page in development with helpful information",
@@ -51,13 +41,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0759a8a18e798e07fee5835624710c40",
+        "contentDigest": "8744755031a80bcf607982dcc21d90a8",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin component-layout-creator": {
-      "resolve": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "resolve": "/Users/nox/Sandbox/imaginarybeasts/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
       "id": "Plugin component-layout-creator",
       "name": "component-layout-creator",
       "version": "1.0.0",
@@ -69,7 +59,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "pluginFilepath": "/Users/nox/Sandbox/imaginarybeasts/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
       "packageJson": {
         "name": "component-layout-creator",
         "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
@@ -90,13 +80,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0e686692ab68bae64ead3ed155ac3786",
+        "contentDigest": "5106249f0dc181562dbb21eb2ece1d96",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin internal-data-bridge": {
-      "resolve": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "resolve": "/Users/nox/Sandbox/imaginarybeasts/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "id": "Plugin internal-data-bridge",
       "name": "internal-data-bridge",
       "version": "1.0.0",
@@ -109,7 +99,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "pluginFilepath": "/Users/nox/Sandbox/imaginarybeasts/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "packageJson": {
         "name": "internal-data-bridge",
         "description": "An internal Gatsby plugin which creates data nodes from internal data",
@@ -126,13 +116,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "aa8c97e0ff710744286859c12a38883f",
+        "contentDigest": "a310d692857ca22e99c08ddb9022fd21",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin prod-404": {
-      "resolve": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "resolve": "/Users/nox/Sandbox/imaginarybeasts/node_modules/gatsby/dist/internal-plugins/prod-404",
       "id": "Plugin prod-404",
       "name": "prod-404",
       "version": "1.0.0",
@@ -144,7 +134,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "pluginFilepath": "/Users/nox/Sandbox/imaginarybeasts/node_modules/gatsby/dist/internal-plugins/prod-404",
       "packageJson": {
         "name": "prod-404",
         "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
@@ -161,13 +151,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "fb02932a7ddba6daf189852b2f1b0594",
+        "contentDigest": "4abb0fca661b1fd1685ac4a0aa582e57",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin query-runner": {
-      "resolve": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "resolve": "/Users/nox/Sandbox/imaginarybeasts/node_modules/gatsby/dist/internal-plugins/query-runner",
       "id": "Plugin query-runner",
       "name": "query-runner",
       "version": "1.0.0",
@@ -180,7 +170,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "pluginFilepath": "/Users/nox/Sandbox/imaginarybeasts/node_modules/gatsby/dist/internal-plugins/query-runner",
       "packageJson": {
         "name": "query-runner",
         "description": "Internal plugin for running queries",
@@ -197,13 +187,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "b24587dc4952576306ef2c37b3f462ea",
+        "contentDigest": "0801a66d11919158b29e61460181fc54",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-react-next": {
-      "resolve": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby-plugin-react-next",
+      "resolve": "/Users/nox/Sandbox/imaginarybeasts/node_modules/gatsby-plugin-react-next",
       "id": "Plugin gatsby-plugin-react-next",
       "name": "gatsby-plugin-react-next",
       "version": "1.0.11",
@@ -215,7 +205,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby-plugin-react-next",
+      "pluginFilepath": "/Users/nox/Sandbox/imaginarybeasts/node_modules/gatsby-plugin-react-next",
       "packageJson": {
         "name": "gatsby-plugin-react-next",
         "description": "Use React 16 with your Gatsby v1 site",
@@ -270,13 +260,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "69a185de77241a3b779673c641f45209",
+        "contentDigest": "d5e13e379ab181fb517f159e11b09fee",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-react-helmet": {
-      "resolve": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby-plugin-react-helmet",
+      "resolve": "/Users/nox/Sandbox/imaginarybeasts/node_modules/gatsby-plugin-react-helmet",
       "id": "Plugin gatsby-plugin-react-helmet",
       "name": "gatsby-plugin-react-helmet",
       "version": "1.0.8",
@@ -288,7 +278,7 @@
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby-plugin-react-helmet",
+      "pluginFilepath": "/Users/nox/Sandbox/imaginarybeasts/node_modules/gatsby-plugin-react-helmet",
       "packageJson": {
         "name": "gatsby-plugin-react-helmet",
         "description": "Stub description for gatsby-plugin-react-helmet",
@@ -328,13 +318,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e876a765489d4cb02f0567159f49e8f5",
+        "contentDigest": "8cbe26d34937e0654a7e5f73e0eeb18a",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin svgo": {
-      "resolve": "/Users/iriswong/Sandbox/personal/imaginarybeasts/plugins/svgo",
+      "resolve": "/Users/nox/Sandbox/imaginarybeasts/plugins/svgo",
       "name": "svgo",
       "id": "Plugin svgo",
       "version": "0a05c8c1c730618c6be93b3fbc6f8aa3",
@@ -346,7 +336,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/plugins/svgo",
+      "pluginFilepath": "/Users/nox/Sandbox/imaginarybeasts/plugins/svgo",
       "packageJson": {
         "dependencies": [],
         "devDependencies": [],
@@ -357,13 +347,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ab4f020078cb2ea27b6cc6e87631d787",
+        "contentDigest": "fd56146161cd750a11605cd94a2d9d4e",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-transformer-sharp": {
-      "resolve": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby-transformer-sharp",
+      "resolve": "/Users/nox/Sandbox/imaginarybeasts/node_modules/gatsby-transformer-sharp",
       "id": "Plugin gatsby-transformer-sharp",
       "name": "gatsby-transformer-sharp",
       "version": "1.6.27",
@@ -377,7 +367,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby-transformer-sharp",
+      "pluginFilepath": "/Users/nox/Sandbox/imaginarybeasts/node_modules/gatsby-transformer-sharp",
       "packageJson": {
         "name": "gatsby-transformer-sharp",
         "description": "Gatsby transformer plugin for images using Sharp",
@@ -428,13 +418,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "aaf416a6311d4d2fd6d9e8a196eec2e1",
+        "contentDigest": "3bb6a5996b73af84a62c5ae7675344a9",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-sharp": {
-      "resolve": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby-plugin-sharp",
+      "resolve": "/Users/nox/Sandbox/imaginarybeasts/node_modules/gatsby-plugin-sharp",
       "id": "Plugin gatsby-plugin-sharp",
       "name": "gatsby-plugin-sharp",
       "version": "1.6.48",
@@ -444,7 +434,7 @@
       "nodeAPIs": [],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby-plugin-sharp",
+      "pluginFilepath": "/Users/nox/Sandbox/imaginarybeasts/node_modules/gatsby-plugin-sharp",
       "packageJson": {
         "name": "gatsby-plugin-sharp",
         "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
@@ -537,13 +527,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "113ca4d8b7b3e2439d3ed33a29c10bb4",
+        "contentDigest": "cc3395f6fc4b4375f133ba8dd160ba1d",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-page-transitions": {
-      "resolve": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby-plugin-page-transitions",
+      "resolve": "/Users/nox/Sandbox/imaginarybeasts/node_modules/gatsby-plugin-page-transitions",
       "id": "Plugin gatsby-plugin-page-transitions",
       "name": "gatsby-plugin-page-transitions",
       "version": "1.0.7",
@@ -557,7 +547,7 @@
         "replaceHistory"
       ],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby-plugin-page-transitions",
+      "pluginFilepath": "/Users/nox/Sandbox/imaginarybeasts/node_modules/gatsby-plugin-page-transitions",
       "packageJson": {
         "name": "gatsby-plugin-page-transitions",
         "description": "Gatsby plugin to set page transitions",
@@ -630,13 +620,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "389b7325a43ae405d4901d3575dcf4e5",
+        "contentDigest": "fa74186980bc68099b2176c7522d6a3c",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-postcss-sass": {
-      "resolve": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby-plugin-postcss-sass",
+      "resolve": "/Users/nox/Sandbox/imaginarybeasts/node_modules/gatsby-plugin-postcss-sass",
       "id": "Plugin gatsby-plugin-postcss-sass",
       "name": "gatsby-plugin-postcss-sass",
       "version": "1.0.22",
@@ -653,7 +643,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby-plugin-postcss-sass",
+      "pluginFilepath": "/Users/nox/Sandbox/imaginarybeasts/node_modules/gatsby-plugin-postcss-sass",
       "packageJson": {
         "name": "gatsby-plugin-postcss-sass",
         "description": "Gatsby plugin to handle scss/sass files with integrated support for also processing with Postcss plugins",
@@ -715,20 +705,20 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "be1d63323769bebe6063eb53b7705f24",
+        "contentDigest": "06a37565b0e78d55dd06593c1741bc0e",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-source-filesystem": {
-      "resolve": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby-source-filesystem",
+      "resolve": "/Users/nox/Sandbox/imaginarybeasts/node_modules/gatsby-source-filesystem",
       "id": "Plugin gatsby-source-filesystem",
       "name": "gatsby-source-filesystem",
       "version": "1.5.39",
       "pluginOptions": {
         "plugins": [],
         "name": "data",
-        "path": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/data/"
+        "path": "/Users/nox/Sandbox/imaginarybeasts/src/data/"
       },
       "nodeAPIs": [
         "sourceNodes",
@@ -736,7 +726,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby-source-filesystem",
+      "pluginFilepath": "/Users/nox/Sandbox/imaginarybeasts/node_modules/gatsby-source-filesystem",
       "packageJson": {
         "name": "gatsby-source-filesystem",
         "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
@@ -818,13 +808,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "85b66ddff1edc33f723f4af83c3f4e8f",
+        "contentDigest": "e26bd990b1f8c0a9f9212329981e7b93",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-transformer-json": {
-      "resolve": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby-transformer-json",
+      "resolve": "/Users/nox/Sandbox/imaginarybeasts/node_modules/gatsby-transformer-json",
       "id": "Plugin gatsby-transformer-json",
       "name": "gatsby-transformer-json",
       "version": "1.0.20",
@@ -836,7 +826,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby-transformer-json",
+      "pluginFilepath": "/Users/nox/Sandbox/imaginarybeasts/node_modules/gatsby-transformer-json",
       "packageJson": {
         "name": "gatsby-transformer-json",
         "description": "Gatsby transformer plugin for JSON files",
@@ -878,13 +868,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "8e6f53915ca7a9d218a374155a9d3883",
+        "contentDigest": "2fc028894ba62088261d9df99fcd9131",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin default-site-plugin": {
-      "resolve": "/Users/iriswong/Sandbox/personal/imaginarybeasts",
+      "resolve": "/Users/nox/Sandbox/imaginarybeasts",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
       "version": "56b7e15289666dce8fe271a41530a9ac",
@@ -894,7 +884,7 @@
       "nodeAPIs": [],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/iriswong/Sandbox/personal/imaginarybeasts",
+      "pluginFilepath": "/Users/nox/Sandbox/imaginarybeasts",
       "packageJson": {
         "name": "gatsby-react-boilerplate",
         "description": "",
@@ -1041,19 +1031,19 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "7adab4f9103765229d34b52636e069c1",
+        "contentDigest": "e1999ebf0ddff962110794b7775dde1e",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-page-creator": {
-      "resolve": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby-plugin-page-creator",
+      "resolve": "/Users/nox/Sandbox/imaginarybeasts/node_modules/gatsby-plugin-page-creator",
       "id": "Plugin gatsby-plugin-page-creator",
       "name": "gatsby-plugin-page-creator",
       "version": "1.0.1",
       "pluginOptions": {
         "plugins": [],
-        "path": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/pages",
+        "path": "/Users/nox/Sandbox/imaginarybeasts/src/pages",
         "pathCheck": false
       },
       "nodeAPIs": [
@@ -1061,7 +1051,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/node_modules/gatsby-plugin-page-creator",
+      "pluginFilepath": "/Users/nox/Sandbox/imaginarybeasts/node_modules/gatsby-plugin-page-creator",
       "packageJson": {
         "name": "gatsby-plugin-page-creator",
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
@@ -1123,7 +1113,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "034b44d06b1cca6008930e2cd7d07cd5",
+        "contentDigest": "450d4c087e6a0788f5874fe1ebe5f84c",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1132,68 +1122,113 @@
       "siteMetadata": {
         "title": "imaginary beasts"
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-14T19:47:46.277Z",
+      "buildTime": "2020-05-13T22:51:56.167Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "06667010d76dc0e35389cd50f91fb657",
+        "contentDigest": "326729ebb4cef63c50b5901c38862f62",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
     },
-    "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/ absPath of file": {
-      "id": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/ absPath of file",
+    "/Users/nox/Sandbox/imaginarybeasts/src/img/ absPath of file": {
+      "id": "/Users/nox/Sandbox/imaginarybeasts/src/img/ absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "c4cb3349f9614c11ed99b5bbc4d57bb7",
+        "contentDigest": "a010458260589899576a980be5ad2da5",
         "type": "Directory",
         "description": "Directory \"src/img\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "img",
-      "absolutePath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/",
+      "absolutePath": "/Users/nox/Sandbox/imaginarybeasts/src/img/",
       "relativePath": "",
       "extension": "",
-      "size": 192,
-      "prettySize": "192 B",
-      "modifiedTime": "2018-09-10T02:18:29.788Z",
-      "accessTime": "2018-10-14T19:47:48.764Z",
-      "changeTime": "2018-09-10T02:18:29.788Z",
-      "birthTime": "2018-08-26T23:39:36.597Z",
+      "size": 256,
+      "prettySize": "256 B",
+      "modifiedTime": "2020-05-13T22:50:38.634Z",
+      "accessTime": "2020-05-13T22:50:38.636Z",
+      "changeTime": "2020-05-13T22:50:38.634Z",
+      "birthTime": "2018-12-02T02:31:37.568Z",
       "root": "/",
-      "dir": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src",
+      "dir": "/Users/nox/Sandbox/imaginarybeasts/src",
       "base": "img",
       "ext": "",
       "name": "img",
       "relativeDirectory": "..",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 6,
+      "nlink": 8,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
-      "blksize": 4194304,
-      "ino": 4526948,
+      "blksize": 4096,
+      "ino": 2629134,
       "blocks": 0,
-      "atimeMs": 1539546468763.6096,
-      "mtimeMs": 1536545909787.6035,
-      "ctimeMs": 1536545909787.6035,
-      "birthtimeMs": 1535326776596.772,
-      "atime": "2018-10-14T19:47:48.764Z",
-      "mtime": "2018-09-10T02:18:29.788Z",
-      "ctime": "2018-09-10T02:18:29.788Z",
-      "birthtime": "2018-08-26T23:39:36.597Z"
+      "atimeMs": 1589410238635.7456,
+      "mtimeMs": 1589410238633.8042,
+      "ctimeMs": 1589410238633.8042,
+      "birthtimeMs": 1543717897567.7578,
+      "atime": "2020-05-13T22:50:38.636Z",
+      "mtime": "2020-05-13T22:50:38.634Z",
+      "ctime": "2020-05-13T22:50:38.634Z",
+      "birthtime": "2018-12-02T02:31:37.568Z"
     },
-    "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/dragonface.png absPath of file": {
-      "id": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/dragonface.png absPath of file",
+    "/Users/nox/Sandbox/imaginarybeasts/src/img/ris-and-cat-fur.png absPath of file": {
+      "id": "/Users/nox/Sandbox/imaginarybeasts/src/img/ris-and-cat-fur.png absPath of file",
       "children": [
-        "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/dragonface.png absPath of file >> ImageSharp"
+        "/Users/nox/Sandbox/imaginarybeasts/src/img/ris-and-cat-fur.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "08a361d35e9be87cee2003ac76ad204b",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/img/ris-and-cat-fur.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "img",
+      "absolutePath": "/Users/nox/Sandbox/imaginarybeasts/src/img/ris-and-cat-fur.png",
+      "relativePath": "ris-and-cat-fur.png",
+      "extension": "png",
+      "size": 226951,
+      "prettySize": "227 kB",
+      "modifiedTime": "2020-05-13T22:50:38.637Z",
+      "accessTime": "2020-05-13T22:50:54.809Z",
+      "changeTime": "2020-05-13T22:50:38.637Z",
+      "birthTime": "2020-05-13T22:50:38.634Z",
+      "root": "/",
+      "dir": "/Users/nox/Sandbox/imaginarybeasts/src/img",
+      "base": "ris-and-cat-fur.png",
+      "ext": ".png",
+      "name": "ris-and-cat-fur",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 13493600,
+      "blocks": 448,
+      "atimeMs": 1589410254808.6882,
+      "mtimeMs": 1589410238636.8193,
+      "ctimeMs": 1589410238636.8193,
+      "birthtimeMs": 1589410238633.796,
+      "atime": "2020-05-13T22:50:54.809Z",
+      "mtime": "2020-05-13T22:50:38.637Z",
+      "ctime": "2020-05-13T22:50:38.637Z",
+      "birthtime": "2020-05-13T22:50:38.634Z"
+    },
+    "/Users/nox/Sandbox/imaginarybeasts/src/img/dragonface.png absPath of file": {
+      "id": "/Users/nox/Sandbox/imaginarybeasts/src/img/dragonface.png absPath of file",
+      "children": [
+        "/Users/nox/Sandbox/imaginarybeasts/src/img/dragonface.png absPath of file >> ImageSharp"
       ],
       "parent": "___SOURCE___",
       "internal": {
@@ -1204,17 +1239,17 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "img",
-      "absolutePath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/dragonface.png",
+      "absolutePath": "/Users/nox/Sandbox/imaginarybeasts/src/img/dragonface.png",
       "relativePath": "dragonface.png",
       "extension": "png",
       "size": 178979,
       "prettySize": "179 kB",
-      "modifiedTime": "2017-02-12T04:22:14.000Z",
-      "accessTime": "2018-09-10T02:02:10.821Z",
-      "changeTime": "2018-08-26T23:39:38.812Z",
-      "birthTime": "2017-02-12T04:22:14.000Z",
+      "modifiedTime": "2018-12-02T02:31:37.569Z",
+      "accessTime": "2018-12-02T02:41:52.158Z",
+      "changeTime": "2018-12-02T02:31:37.569Z",
+      "birthTime": "2018-12-02T02:31:37.568Z",
       "root": "/",
-      "dir": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img",
+      "dir": "/Users/nox/Sandbox/imaginarybeasts/src/img",
       "base": "dragonface.png",
       "ext": ".png",
       "name": "dragonface",
@@ -1225,89 +1260,42 @@
       "uid": 501,
       "gid": 20,
       "rdev": 0,
-      "blksize": 4194304,
-      "ino": 4526954,
+      "blksize": 4096,
+      "ino": 2629135,
       "blocks": 352,
-      "atimeMs": 1536544930820.9463,
-      "mtimeMs": 1486873334000,
-      "ctimeMs": 1535326778811.6729,
-      "birthtimeMs": 1486873334000,
-      "atime": "2018-09-10T02:02:10.821Z",
-      "mtime": "2017-02-12T04:22:14.000Z",
-      "ctime": "2018-08-26T23:39:38.812Z",
-      "birthtime": "2017-02-12T04:22:14.000Z"
+      "atimeMs": 1543718512158.445,
+      "mtimeMs": 1543717897569.0632,
+      "ctimeMs": 1543717897569.0632,
+      "birthtimeMs": 1543717897567.8142,
+      "atime": "2018-12-02T02:41:52.158Z",
+      "mtime": "2018-12-02T02:31:37.569Z",
+      "ctime": "2018-12-02T02:31:37.569Z",
+      "birthtime": "2018-12-02T02:31:37.568Z"
     },
-    "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/dragonface.png absPath of file >> ImageSharp": {
-      "id": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/dragonface.png absPath of file >> ImageSharp",
+    "/Users/nox/Sandbox/imaginarybeasts/src/img/ris-and-cat-fur.png absPath of file >> ImageSharp": {
+      "id": "/Users/nox/Sandbox/imaginarybeasts/src/img/ris-and-cat-fur.png absPath of file >> ImageSharp",
       "children": [],
-      "parent": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/dragonface.png absPath of file",
+      "parent": "/Users/nox/Sandbox/imaginarybeasts/src/img/ris-and-cat-fur.png absPath of file",
+      "internal": {
+        "contentDigest": "08a361d35e9be87cee2003ac76ad204b",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/nox/Sandbox/imaginarybeasts/src/img/dragonface.png absPath of file >> ImageSharp": {
+      "id": "/Users/nox/Sandbox/imaginarybeasts/src/img/dragonface.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/nox/Sandbox/imaginarybeasts/src/img/dragonface.png absPath of file",
       "internal": {
         "contentDigest": "fe78780a0c13f468be313701db8e54e0",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/forestsphinx_placeholder.jpg absPath of file": {
-      "id": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/forestsphinx_placeholder.jpg absPath of file",
+    "/Users/nox/Sandbox/imaginarybeasts/src/img/water-surprise.png absPath of file": {
+      "id": "/Users/nox/Sandbox/imaginarybeasts/src/img/water-surprise.png absPath of file",
       "children": [
-        "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/forestsphinx_placeholder.jpg absPath of file >> ImageSharp"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "84eac46d04b0ecb9b72a9912c0340d93",
-        "mediaType": "image/jpeg",
-        "type": "File",
-        "description": "File \"src/img/forestsphinx_placeholder.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "img",
-      "absolutePath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/forestsphinx_placeholder.jpg",
-      "relativePath": "forestsphinx_placeholder.jpg",
-      "extension": "jpg",
-      "size": 446466,
-      "prettySize": "446 kB",
-      "modifiedTime": "2018-09-06T00:17:41.312Z",
-      "accessTime": "2018-09-10T02:02:10.821Z",
-      "changeTime": "2018-09-06T00:17:41.520Z",
-      "birthTime": "2018-09-06T00:17:41.139Z",
-      "root": "/",
-      "dir": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img",
-      "base": "forestsphinx_placeholder.jpg",
-      "ext": ".jpg",
-      "name": "forestsphinx_placeholder",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 4829148,
-      "blocks": 880,
-      "atimeMs": 1536544930820.94,
-      "mtimeMs": 1536193061311.9983,
-      "ctimeMs": 1536193061520.4058,
-      "birthtimeMs": 1536193061139.2766,
-      "atime": "2018-09-10T02:02:10.821Z",
-      "mtime": "2018-09-06T00:17:41.312Z",
-      "ctime": "2018-09-06T00:17:41.520Z",
-      "birthtime": "2018-09-06T00:17:41.139Z"
-    },
-    "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/forestsphinx_placeholder.jpg absPath of file >> ImageSharp": {
-      "id": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/forestsphinx_placeholder.jpg absPath of file >> ImageSharp",
-      "children": [],
-      "parent": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/forestsphinx_placeholder.jpg absPath of file",
-      "internal": {
-        "contentDigest": "84eac46d04b0ecb9b72a9912c0340d93",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/water-surprise.png absPath of file": {
-      "id": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/water-surprise.png absPath of file",
-      "children": [
-        "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/water-surprise.png absPath of file >> ImageSharp"
+        "/Users/nox/Sandbox/imaginarybeasts/src/img/water-surprise.png absPath of file >> ImageSharp"
       ],
       "parent": "___SOURCE___",
       "internal": {
@@ -1318,17 +1306,17 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "img",
-      "absolutePath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/water-surprise.png",
+      "absolutePath": "/Users/nox/Sandbox/imaginarybeasts/src/img/water-surprise.png",
       "relativePath": "water-surprise.png",
       "extension": "png",
       "size": 188834,
       "prettySize": "189 kB",
-      "modifiedTime": "2018-09-10T02:11:37.702Z",
-      "accessTime": "2018-09-10T02:11:54.407Z",
-      "changeTime": "2018-09-10T02:11:54.340Z",
-      "birthTime": "2018-09-10T02:11:37.332Z",
+      "modifiedTime": "2018-12-02T02:31:37.577Z",
+      "accessTime": "2018-12-02T02:41:52.160Z",
+      "changeTime": "2018-12-02T02:31:37.577Z",
+      "birthTime": "2018-12-02T02:31:37.576Z",
       "root": "/",
-      "dir": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img",
+      "dir": "/Users/nox/Sandbox/imaginarybeasts/src/img",
       "base": "water-surprise.png",
       "ext": ".png",
       "name": "water-surprise",
@@ -1339,88 +1327,56 @@
       "uid": 501,
       "gid": 20,
       "rdev": 0,
-      "blksize": 4194304,
-      "ino": 5211732,
+      "blksize": 4096,
+      "ino": 2629138,
       "blocks": 376,
-      "atimeMs": 1536545514406.5254,
-      "mtimeMs": 1536545497701.575,
-      "ctimeMs": 1536545514339.9153,
-      "birthtimeMs": 1536545497331.606,
-      "atime": "2018-09-10T02:11:54.407Z",
-      "mtime": "2018-09-10T02:11:37.702Z",
-      "ctime": "2018-09-10T02:11:54.340Z",
-      "birthtime": "2018-09-10T02:11:37.332Z"
+      "atimeMs": 1543718512160.2087,
+      "mtimeMs": 1543717897577.2134,
+      "ctimeMs": 1543717897577.2134,
+      "birthtimeMs": 1543717897576.334,
+      "atime": "2018-12-02T02:41:52.160Z",
+      "mtime": "2018-12-02T02:31:37.577Z",
+      "ctime": "2018-12-02T02:31:37.577Z",
+      "birthtime": "2018-12-02T02:31:37.576Z"
     },
-    "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/data/ absPath of file": {
-      "id": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/data/ absPath of file",
+    "/Users/nox/Sandbox/imaginarybeasts/src/img/water-surprise.png absPath of file >> ImageSharp": {
+      "id": "/Users/nox/Sandbox/imaginarybeasts/src/img/water-surprise.png absPath of file >> ImageSharp",
       "children": [],
+      "parent": "/Users/nox/Sandbox/imaginarybeasts/src/img/water-surprise.png absPath of file",
+      "internal": {
+        "contentDigest": "43afded2a0178f7ab51ff2bc3e70cac1",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/nox/Sandbox/imaginarybeasts/src/img/bw-iris-2.jpg absPath of file": {
+      "id": "/Users/nox/Sandbox/imaginarybeasts/src/img/bw-iris-2.jpg absPath of file",
+      "children": [
+        "/Users/nox/Sandbox/imaginarybeasts/src/img/bw-iris-2.jpg absPath of file >> ImageSharp"
+      ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "e9d93062967ec9969ef060a48490f660",
-        "type": "Directory",
-        "description": "Directory \"src/data\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "data",
-      "absolutePath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/data/",
-      "relativePath": "",
-      "extension": "",
-      "size": 128,
-      "prettySize": "128 B",
-      "modifiedTime": "2018-08-26T23:42:58.308Z",
-      "accessTime": "2018-10-14T19:47:48.776Z",
-      "changeTime": "2018-08-26T23:42:58.308Z",
-      "birthTime": "2018-08-24T02:57:04.266Z",
-      "root": "/",
-      "dir": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src",
-      "base": "data",
-      "ext": "",
-      "name": "data",
-      "relativeDirectory": "..",
-      "dev": 16777220,
-      "mode": 16877,
-      "nlink": 4,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 4399975,
-      "blocks": 0,
-      "atimeMs": 1539546468775.6694,
-      "mtimeMs": 1535326978307.5916,
-      "ctimeMs": 1535326978307.5916,
-      "birthtimeMs": 1535079424266.4307,
-      "atime": "2018-10-14T19:47:48.776Z",
-      "mtime": "2018-08-26T23:42:58.308Z",
-      "ctime": "2018-08-26T23:42:58.308Z",
-      "birthtime": "2018-08-24T02:57:04.266Z"
-    },
-    "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/data/.DS_Store absPath of file": {
-      "id": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/data/.DS_Store absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "194577a7e20bdcc7afbb718f502c134c",
-        "mediaType": "application/octet-stream",
+        "contentDigest": "d44548c16f671f85c04e313957e2038f",
+        "mediaType": "image/jpeg",
         "type": "File",
-        "description": "File \"src/data/.DS_Store\"",
+        "description": "File \"src/img/bw-iris-2.jpg\"",
         "owner": "gatsby-source-filesystem"
       },
-      "sourceInstanceName": "data",
-      "absolutePath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/data/.DS_Store",
-      "relativePath": ".DS_Store",
-      "extension": "",
-      "size": 6148,
-      "prettySize": "6.15 kB",
-      "modifiedTime": "2018-09-06T00:17:32.190Z",
-      "accessTime": "2018-09-06T00:17:32.189Z",
-      "changeTime": "2018-09-06T00:17:32.190Z",
-      "birthTime": "2018-08-26T23:39:38.738Z",
+      "sourceInstanceName": "img",
+      "absolutePath": "/Users/nox/Sandbox/imaginarybeasts/src/img/bw-iris-2.jpg",
+      "relativePath": "bw-iris-2.jpg",
+      "extension": "jpg",
+      "size": 458343,
+      "prettySize": "458 kB",
+      "modifiedTime": "2020-05-13T22:50:38.634Z",
+      "accessTime": "2020-05-13T22:50:54.808Z",
+      "changeTime": "2020-05-13T22:50:38.634Z",
+      "birthTime": "2020-05-13T22:50:38.626Z",
       "root": "/",
-      "dir": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/data",
-      "base": ".DS_Store",
-      "ext": "",
-      "name": ".DS_Store",
+      "dir": "/Users/nox/Sandbox/imaginarybeasts/src/img",
+      "base": "bw-iris-2.jpg",
+      "ext": ".jpg",
+      "name": "bw-iris-2",
       "relativeDirectory": "",
       "dev": 16777220,
       "mode": 33188,
@@ -1428,22 +1384,178 @@
       "uid": 501,
       "gid": 20,
       "rdev": 0,
-      "blksize": 4194304,
-      "ino": 4526953,
-      "blocks": 16,
-      "atimeMs": 1536193052188.917,
-      "mtimeMs": 1536193052190.1855,
-      "ctimeMs": 1536193052190.1855,
-      "birthtimeMs": 1535326778737.6255,
-      "atime": "2018-09-06T00:17:32.189Z",
-      "mtime": "2018-09-06T00:17:32.190Z",
-      "ctime": "2018-09-06T00:17:32.190Z",
-      "birthtime": "2018-08-26T23:39:38.738Z"
+      "blksize": 4096,
+      "ino": 13493599,
+      "blocks": 896,
+      "atimeMs": 1589410254807.957,
+      "mtimeMs": 1589410238633.56,
+      "ctimeMs": 1589410238633.56,
+      "birthtimeMs": 1589410238626.038,
+      "atime": "2020-05-13T22:50:54.808Z",
+      "mtime": "2020-05-13T22:50:38.634Z",
+      "ctime": "2020-05-13T22:50:38.634Z",
+      "birthtime": "2020-05-13T22:50:38.626Z"
     },
-    "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/data/data.json absPath of file": {
-      "id": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/data/data.json absPath of file",
+    "/Users/nox/Sandbox/imaginarybeasts/src/img/bw-iris-2.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/nox/Sandbox/imaginarybeasts/src/img/bw-iris-2.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/nox/Sandbox/imaginarybeasts/src/img/bw-iris-2.jpg absPath of file",
+      "internal": {
+        "contentDigest": "d44548c16f671f85c04e313957e2038f",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/nox/Sandbox/imaginarybeasts/src/img/forestsphinx_placeholder.jpg absPath of file": {
+      "id": "/Users/nox/Sandbox/imaginarybeasts/src/img/forestsphinx_placeholder.jpg absPath of file",
       "children": [
-        "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/data/data.json absPath of file >>> JSON"
+        "/Users/nox/Sandbox/imaginarybeasts/src/img/forestsphinx_placeholder.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "84eac46d04b0ecb9b72a9912c0340d93",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/img/forestsphinx_placeholder.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "img",
+      "absolutePath": "/Users/nox/Sandbox/imaginarybeasts/src/img/forestsphinx_placeholder.jpg",
+      "relativePath": "forestsphinx_placeholder.jpg",
+      "extension": "jpg",
+      "size": 446466,
+      "prettySize": "446 kB",
+      "modifiedTime": "2018-12-02T02:31:37.572Z",
+      "accessTime": "2018-12-02T02:41:52.159Z",
+      "changeTime": "2018-12-02T02:31:37.572Z",
+      "birthTime": "2018-12-02T02:31:37.569Z",
+      "root": "/",
+      "dir": "/Users/nox/Sandbox/imaginarybeasts/src/img",
+      "base": "forestsphinx_placeholder.jpg",
+      "ext": ".jpg",
+      "name": "forestsphinx_placeholder",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2629136,
+      "blocks": 880,
+      "atimeMs": 1543718512158.7407,
+      "mtimeMs": 1543717897572.1208,
+      "ctimeMs": 1543717897572.1208,
+      "birthtimeMs": 1543717897569.2896,
+      "atime": "2018-12-02T02:41:52.159Z",
+      "mtime": "2018-12-02T02:31:37.572Z",
+      "ctime": "2018-12-02T02:31:37.572Z",
+      "birthtime": "2018-12-02T02:31:37.569Z"
+    },
+    "/Users/nox/Sandbox/imaginarybeasts/src/img/water-surprise-animated.gif absPath of file": {
+      "id": "/Users/nox/Sandbox/imaginarybeasts/src/img/water-surprise-animated.gif absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "7e81268a2e0cf85164ce8203d57284be",
+        "mediaType": "image/gif",
+        "type": "File",
+        "description": "File \"src/img/water-surprise-animated.gif\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "img",
+      "absolutePath": "/Users/nox/Sandbox/imaginarybeasts/src/img/water-surprise-animated.gif",
+      "relativePath": "water-surprise-animated.gif",
+      "extension": "gif",
+      "size": 514860,
+      "prettySize": "515 kB",
+      "modifiedTime": "2018-12-02T02:31:37.576Z",
+      "accessTime": "2018-12-02T02:41:52.159Z",
+      "changeTime": "2018-12-02T02:31:37.576Z",
+      "birthTime": "2018-12-02T02:31:37.573Z",
+      "root": "/",
+      "dir": "/Users/nox/Sandbox/imaginarybeasts/src/img",
+      "base": "water-surprise-animated.gif",
+      "ext": ".gif",
+      "name": "water-surprise-animated",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2629137,
+      "blocks": 1008,
+      "atimeMs": 1543718512159.4272,
+      "mtimeMs": 1543717897576.0107,
+      "ctimeMs": 1543717897576.0107,
+      "birthtimeMs": 1543717897572.5132,
+      "atime": "2018-12-02T02:41:52.159Z",
+      "mtime": "2018-12-02T02:31:37.576Z",
+      "ctime": "2018-12-02T02:31:37.576Z",
+      "birthtime": "2018-12-02T02:31:37.573Z"
+    },
+    "/Users/nox/Sandbox/imaginarybeasts/src/img/forestsphinx_placeholder.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/nox/Sandbox/imaginarybeasts/src/img/forestsphinx_placeholder.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/nox/Sandbox/imaginarybeasts/src/img/forestsphinx_placeholder.jpg absPath of file",
+      "internal": {
+        "contentDigest": "84eac46d04b0ecb9b72a9912c0340d93",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/nox/Sandbox/imaginarybeasts/src/data/ absPath of file": {
+      "id": "/Users/nox/Sandbox/imaginarybeasts/src/data/ absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c5d7cbdbe5672af0949e48a163e582ad",
+        "type": "Directory",
+        "description": "Directory \"src/data\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/nox/Sandbox/imaginarybeasts/src/data/",
+      "relativePath": "",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2018-12-02T02:31:37.568Z",
+      "accessTime": "2020-03-18T01:24:57.768Z",
+      "changeTime": "2018-12-02T02:31:37.568Z",
+      "birthTime": "2018-12-02T02:31:37.568Z",
+      "root": "/",
+      "dir": "/Users/nox/Sandbox/imaginarybeasts/src",
+      "base": "data",
+      "ext": "",
+      "name": "data",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2629132,
+      "blocks": 0,
+      "atimeMs": 1584494697768.0789,
+      "mtimeMs": 1543717897567.633,
+      "ctimeMs": 1543717897567.633,
+      "birthtimeMs": 1543717897567.5686,
+      "atime": "2020-03-18T01:24:57.768Z",
+      "mtime": "2018-12-02T02:31:37.568Z",
+      "ctime": "2018-12-02T02:31:37.568Z",
+      "birthtime": "2018-12-02T02:31:37.568Z"
+    },
+    "/Users/nox/Sandbox/imaginarybeasts/src/data/data.json absPath of file": {
+      "id": "/Users/nox/Sandbox/imaginarybeasts/src/data/data.json absPath of file",
+      "children": [
+        "/Users/nox/Sandbox/imaginarybeasts/src/data/data.json absPath of file >>> JSON"
       ],
       "parent": "___SOURCE___",
       "internal": {
@@ -1454,17 +1566,17 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "data",
-      "absolutePath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/data/data.json",
+      "absolutePath": "/Users/nox/Sandbox/imaginarybeasts/src/data/data.json",
       "relativePath": "data.json",
       "extension": "json",
       "size": 1118,
       "prettySize": "1.12 kB",
-      "modifiedTime": "2018-09-06T02:08:15.124Z",
-      "accessTime": "2018-09-06T02:49:23.822Z",
-      "changeTime": "2018-09-06T02:08:15.124Z",
-      "birthTime": "2018-08-24T02:57:04.266Z",
+      "modifiedTime": "2018-12-02T05:30:47.577Z",
+      "accessTime": "2020-05-13T22:47:58.477Z",
+      "changeTime": "2018-12-02T05:30:47.577Z",
+      "birthTime": "2018-12-02T02:31:37.568Z",
       "root": "/",
-      "dir": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/data",
+      "dir": "/Users/nox/Sandbox/imaginarybeasts/src/data",
       "base": "data.json",
       "ext": ".json",
       "name": "data",
@@ -1475,19 +1587,19 @@
       "uid": 501,
       "gid": 20,
       "rdev": 0,
-      "blksize": 4194304,
-      "ino": 4399976,
+      "blksize": 4096,
+      "ino": 2629133,
       "blocks": 8,
-      "atimeMs": 1536202163822.1204,
-      "mtimeMs": 1536199695123.6404,
-      "ctimeMs": 1536199695123.6404,
-      "birthtimeMs": 1535079424266.478,
-      "atime": "2018-09-06T02:49:23.822Z",
-      "mtime": "2018-09-06T02:08:15.124Z",
-      "ctime": "2018-09-06T02:08:15.124Z",
-      "birthtime": "2018-08-24T02:57:04.266Z"
+      "atimeMs": 1589410078476.6587,
+      "mtimeMs": 1543728647577.0386,
+      "ctimeMs": 1543728647577.0386,
+      "birthtimeMs": 1543717897567.627,
+      "atime": "2020-05-13T22:47:58.477Z",
+      "mtime": "2018-12-02T05:30:47.577Z",
+      "ctime": "2018-12-02T05:30:47.577Z",
+      "birthtime": "2018-12-02T02:31:37.568Z"
     },
-    "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/data/data.json absPath of file >>> JSON": {
+    "/Users/nox/Sandbox/imaginarybeasts/src/data/data.json absPath of file >>> JSON": {
       "creatureFeature": [
         {
           "title": "test"
@@ -1534,87 +1646,32 @@
           }
         }
       ],
-      "id": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/data/data.json absPath of file >>> JSON",
+      "id": "/Users/nox/Sandbox/imaginarybeasts/src/data/data.json absPath of file >>> JSON",
       "children": [],
-      "parent": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/data/data.json absPath of file",
+      "parent": "/Users/nox/Sandbox/imaginarybeasts/src/data/data.json absPath of file",
       "internal": {
         "contentDigest": "a252894eae4e3e430db953656d46f574",
         "type": "DataJson",
         "owner": "gatsby-transformer-json"
       }
     },
-    "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/water-surprise.png absPath of file >> ImageSharp": {
-      "id": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/water-surprise.png absPath of file >> ImageSharp",
-      "children": [],
-      "parent": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/water-surprise.png absPath of file",
-      "internal": {
-        "contentDigest": "43afded2a0178f7ab51ff2bc3e70cac1",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/water-surprise-animated.gif absPath of file": {
-      "id": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/water-surprise-animated.gif absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "7e81268a2e0cf85164ce8203d57284be",
-        "mediaType": "image/gif",
-        "type": "File",
-        "description": "File \"src/img/water-surprise-animated.gif\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "img",
-      "absolutePath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img/water-surprise-animated.gif",
-      "relativePath": "water-surprise-animated.gif",
-      "extension": "gif",
-      "size": 514860,
-      "prettySize": "515 kB",
-      "modifiedTime": "2018-09-10T02:18:29.787Z",
-      "accessTime": "2018-09-10T02:18:29.703Z",
-      "changeTime": "2018-09-10T02:18:29.909Z",
-      "birthTime": "2018-09-10T02:18:29.703Z",
-      "root": "/",
-      "dir": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/img",
-      "base": "water-surprise-animated.gif",
-      "ext": ".gif",
-      "name": "water-surprise-animated",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 5211991,
-      "blocks": 1008,
-      "atimeMs": 1536545909702.7036,
-      "mtimeMs": 1536545909787.2405,
-      "ctimeMs": 1536545909908.6047,
-      "birthtimeMs": 1536545909702.7036,
-      "atime": "2018-09-10T02:18:29.703Z",
-      "mtime": "2018-09-10T02:18:29.787Z",
-      "ctime": "2018-09-10T02:18:29.909Z",
-      "birthtime": "2018-09-10T02:18:29.703Z"
-    },
     "SitePage /about/": {
       "layout": "index",
       "jsonName": "about.json",
       "internalComponentName": "ComponentAbout",
       "path": "/about/",
-      "component": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/pages/about.js",
+      "component": "/Users/nox/Sandbox/imaginarybeasts/src/pages/about.js",
       "componentChunkName": "component---src-pages-about-js",
       "context": {},
       "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
       "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/pages/about.js",
+      "componentPath": "/Users/nox/Sandbox/imaginarybeasts/src/pages/about.js",
       "id": "SitePage /about/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b27137528a7e50a73110512fa9233289",
+        "contentDigest": "0ba9b689b5c180200e8ae3c428fe1b66",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1624,18 +1681,18 @@
       "jsonName": "index.json",
       "internalComponentName": "ComponentIndex",
       "path": "/",
-      "component": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/pages/index.js",
+      "component": "/Users/nox/Sandbox/imaginarybeasts/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
       "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
       "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/iriswong/Sandbox/personal/imaginarybeasts/src/pages/index.js",
+      "componentPath": "/Users/nox/Sandbox/imaginarybeasts/src/pages/index.js",
       "id": "SitePage /",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "36c22565203b6d8f889bebbcd014bca3",
+        "contentDigest": "4252bc6141fd8480ae7b02609b9000be",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }

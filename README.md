@@ -1,9 +1,5 @@
-# i m a g i n a r y b e a s t s
-Ris's portfolio website.
+# Gulp Starter for CSS Tricks Tutorial  
 
-![dragonface](https://github.com/demonography/imaginarybeasts/blob/master/src/img/dragonface.png)
+This repo is a gulp starter for this CSS Tricks tutorial. 
 
-### Uses
-*  [Node.js](http://nodejs.org)
-*  [Gatsby](https://www.gatsbyjs.org/docs/)
-*  [Gatsby React Boilerplate](https://github.com/PrototypeInteractive/gatsby-react-boilerplate)
+Remember to do run the `npm install` command after cloning this repo :) 
