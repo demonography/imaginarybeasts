@@ -5,6 +5,7 @@ const gulp = require("gulp"),
   uglify = require("gulp-uglify"),
   minifyCss = require("gulp-clean-css"),
   del = require("del"),
+  imagemin = require("gulp-imagemin"),
   browserSync = require("browser-sync");
 const { series, parallel } = require("gulp");
 
@@ -55,6 +56,13 @@ gulp.task("fonts", () => {
   return gulp.src("app/scss/fonts/**/*").pipe(gulp.dest("dist/css/fonts"));
 });
 
+gulp.task("images", () => {
+  return gulp
+    .src("app/images/*")
+    .pipe(imagemin())
+    .pipe(gulp.dest("dist/images"));
+});
+
 gulp.task("clean", () => {
   return del(["./dist/"]);
 });
@@ -69,6 +77,6 @@ gulp.task("watch", () => {
     .on("change", gulp.series("build", browserSync.reload));
 });
 
-gulp.task("build", gulp.series("clean", "html", "scss", "fonts", "js"));
+gulp.task("build", gulp.series("clean", "html", "scss", "images", "js"));
 
 gulp.task("default", gulp.series("build", gulp.parallel("serve", "watch")));

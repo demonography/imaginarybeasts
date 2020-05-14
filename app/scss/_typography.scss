@@ -1,0 +1,22 @@
+body {
+  font-family: "Work Sans", sans-serif;
+  color: $raven-grey;
+}
+
+h1,
+.heading-display {
+  font-family: "Work Sans", sans-serif;
+  text-transform: uppercase;
+  font-style: normal;
+  font-size: min(max(16px, 4vw), 18px);
+  line-height: 0.75em;
+  letter-spacing: 0.05em;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  line-height: 1.5em;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+}

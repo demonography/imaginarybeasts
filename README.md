@@ -1,5 +1,3 @@
-# Gulp Starter for CSS Tricks Tutorial  
+# imaginary beasts
 
-This repo is a gulp starter for this CSS Tricks tutorial. 
-
-Remember to do run the `npm install` command after cloning this repo :) 
+Ris's portfolio website. Always a work in progress.
