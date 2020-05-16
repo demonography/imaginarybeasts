@@ -19,12 +19,21 @@ img {
 }
 
 section {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display: block;
   margin: 100px 0;
-}
 
-.content-space {
-  padding: 50px;
+  & > div:first-child {
+    flex: 1 1 auto;
+  }
+
+  & > div:nth-child(3) {
+    padding: 50px;
+    flex: 1 1 33%;
+  }
+
+  @include lg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
