@@ -39,10 +39,10 @@ a {
     transition: 0.25s all;
     height: 0;
     overflow: hidden;
-    padding: 0.25em 1.5em;
+    padding: 0.25em 1em;
     background: lighten($steel-blue, 15);
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
-    font-size: 0.8em;
+    font-size: 1.3em;
     color: $raven-grey;
   }
 
@@ -51,6 +51,7 @@ a {
       opacity: 1;
       display: block;
       height: auto;
+      z-index: 10;
     }
   }
 }
