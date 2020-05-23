@@ -1,0 +1,49 @@
+body {
+  background-color: $white-smoke;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  &.banner-animated {
+    max-width: 100%;
+  }
+  &.face-animated {
+    max-width: 200px;
+    @include md {
+      max-width: 300px;
+    }
+  }
+}
+
+.outer-space {
+  padding: 30px;
+  @include lg {
+    max-width: 1100px;
+    padding: 100px;
+  }
+}
+
+section {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 100px 0;
+
+  & > div:first-child {
+    flex: 1 1 auto;
+  }
+
+  & > div:nth-child(3) {
+    width: 100%;
+  }
+
+  @include lg {
+    align-items: center;
+    justify-content: space-between;
+
+    & > div:nth-child(3) {
+      padding: 50px;
+      flex: 1 1 33%;
+    }
+  }
+}
