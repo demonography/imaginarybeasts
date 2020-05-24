@@ -6,13 +6,11 @@ body {
 
 img {
   width: 100%;
-  &.banner-animated {
-    max-width: 100%;
-  }
+  max-width: 100%;
   &.face-animated {
     max-width: 200px;
     @include md {
-      max-width: 300px;
+      max-width: 280px;
     }
   }
 }
@@ -20,15 +18,15 @@ img {
 .outer-space {
   padding: 30px;
   @include lg {
-    max-width: 1100px;
-    padding: 100px;
+    max-width: 1000px;
+    padding: 100px 120px;
   }
 }
 
 section {
   display: flex;
   flex-flow: row wrap;
-  margin: 100px 0;
+  margin: 80px 0 160px;
 
   & > div:first-child {
     flex: 1 1 auto;
@@ -47,4 +45,8 @@ section {
       flex: 1 1 33%;
     }
   }
+}
+
+.cats {
+  flex-flow: row nowrap;
 }

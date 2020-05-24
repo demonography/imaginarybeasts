@@ -2,4 +2,4 @@
 
 Ris's personal website.
 
-<img src="https://github.com/demonography/imaginarybeasts/blob/master/app/images/ris-animated-transparent.gif">
+<img alt="animated picture of ris head" src="https://github.com/demonography/imaginarybeasts/blob/master/app/images/ris-animated-transparent.gif">
