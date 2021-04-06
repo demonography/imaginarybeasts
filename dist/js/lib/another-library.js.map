@@ -1,1 +1,0 @@
-{"version":3,"file":"another-library.js","sources":["lib/another-library.js"],"sourcesContent":["(function() {\n  console.log('This is another library. It should be the second file');\n})();"],"names":["console","log"],"mappings":"AACEA,QAAQC,IAAI"}

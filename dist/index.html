@@ -2,7 +2,46 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>imaginary beasts ~+~</title>
+    <!-- Primary Meta Tags -->
+    <title>imaginary beasts *-*</title>
+    <meta name="title" content="imaginary beasts *-*" />
+    <meta
+      name="description"
+      content="Illustrator, interactive designer, web developer. Mostly constructed out of caffeine, cat hair and cookies."
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://imaginarybeasts.net/" />
+    <meta property="og:title" content="imaginary beasts *-*" />
+    <meta
+      property="og:description"
+      content="Illustrator, interactive designer, web developer. Mostly constructed out of caffeine, cat hair and cookies."
+    />
+    <meta property="og:image" content="images/imaginarybeasts_social.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://imaginarybeasts.net/" />
+    <meta property="twitter:title" content="imaginary beasts *-*" />
+    <meta
+      property="twitter:description"
+      content="Illustrator, interactive designer, web developer. Mostly constructed out of caffeine, cat hair and cookies."
+    />
+    <meta
+      property="twitter:image"
+      content="images/imaginarybeasts_social.png"
+    />
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#00aba9" />
+    <meta name="theme-color" content="#ffffff" />
+
     <!--build:css css/styles.min.css-->
     <link
       href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;800&display=swap"
@@ -18,9 +57,10 @@
       <header>
         <div class="top-image">
           <img
-            class="banner-animated"
             alt="imaginary beasts top banner with little creature"
-            src="images/loong-banner.gif"
+            data-sizes="auto"
+            data-src="images/loong-banner.gif"
+            class="lazyload banner-animated"
           />
         </div>
         <div class="site-name">
@@ -62,11 +102,19 @@
                 >behance</a
               >
             </li>
+            <li>
+              <a
+                linkname="my stuff on stuff"
+                href="https://society6.com/beasts"
+                target="_blank"
+                >society6 shop</a
+              >
+            </li>
           </ul>
         </div>
         <div>
           <img
-            class="face-animated"
+            class="lazyload face-animated"
             alt="ris face animated"
             src="images/ris-animated-transparent.gif"
           />
@@ -92,11 +140,34 @@
           </p>
         </div>
       </section>
+
+      <!-- stop peeking <section>
+        <h2>recent</h2>
+      </section> -->
+
+      <section class="cats">
+        <div>
+          <img
+            class="lazyload"
+            alt="an animation of my cat, Ohmu"
+            src="images/cat-bohmubohmu.gif"
+          />
+        </div>
+        <div>
+          <img
+            class="lazyload"
+            alt="an animation of my cat, Beemo"
+            src="images/cat-beemaleemo.gif"
+          />
+        </div>
+        <div>
+          <p>My two cats.</p>
+        </div>
+      </section>
     </div>
 
     <!--build:js js/main.min.js -->
-    <script src="js/lib/a-library.js"></script>
-    <script src="js/lib/another-library.js"></script>
+    <script src="js/lib/lazysizes.min.js" async=""></script>
     <script src="js/main.js"></script>
     <!-- endbuild -->
   </body>
