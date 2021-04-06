@@ -1,1 +1,0 @@
-{"version":3,"file":"a-library.js","sources":["lib/a-library.js"],"sourcesContent":["(function() {\n  console.log('This is a library. It should be the first file');\n})();"],"names":["console","log"],"mappings":"AACEA,QAAQC,IAAI"}
