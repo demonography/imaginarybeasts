@@ -45,9 +45,8 @@ a {
   line-height: 1.75em;
   font-size: inherit;
   letter-spacing: 0.01em;
-  text-decoration: underline;
-  text-decoration-color: $steel-blue;
-  text-underline-offset: 0.5em;
+  text-decoration: $geyser wavy underline 1px;
+  text-underline-offset: 0.4em;
   transition: all ease-in-out 0.2s;
 
   &:hover {
