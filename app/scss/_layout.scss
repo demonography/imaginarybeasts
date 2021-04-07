@@ -58,12 +58,9 @@ section {
   &.cats {
     @include lg {
       display: grid;
-      grid-template-columns: 1.5fr 1fr;
-      grid-template-rows: repeat(2, 1fr);
+      grid-template-columns: 1.25fr 1fr;
       gap: 2em 2em;
-      grid-template-areas:
-        ". ."
-        ". .";
+      grid-template-areas: ". .";
     }
   }
 }
