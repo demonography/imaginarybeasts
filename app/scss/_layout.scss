@@ -31,30 +31,43 @@ img {
 }
 
 section {
-  display: flex;
-  flex-flow: row wrap;
   margin: 80px 0 160px;
 
-  & > div:first-child {
-    // flex: 1 1 auto;
+  &.homepage {
+    @include lg {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr;
+      grid-template-rows: 0.5fr 1fr;
+      gap: 5em 5em;
+      grid-template-areas:
+        ". ."
+        ". .";
+    }
+    div {
+      &.work {
+        border-top: 1px solid $geyser;
+        margin-top: 4em;
+        padding-top: 4em;
+        @include lg {
+          padding-top: 6em;
+          margin-top: 0;
+        }
+      }
+    }
   }
-
-  & > div:nth-child(3) {
-    width: 100%;
-  }
-
-  @include lg {
-    align-items: center;
-    justify-content: space-between;
-    flex-flow: row nowrap;
-
-    & > div:nth-child(3) {
-      padding: 50px;
-      flex: 1 1 33%;
+  &.cats {
+    @include lg {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr;
+      grid-template-rows: repeat(2, 1fr);
+      gap: 2em 2em;
+      grid-template-areas:
+        ". ."
+        ". .";
     }
   }
 }
 
-.cats {
-  flex-flow: row nowrap;
+.face {
+  text-align: center;
 }

@@ -22,6 +22,7 @@ h2,
   font-weight: bold;
   font-style: normal;
   font-size: 1.25em;
+  margin-bottom: 1em;
 }
 
 p {
@@ -32,38 +33,22 @@ p {
 }
 
 a {
+  font-family: "Maison Neue Mono", "Courier New", monospace;
   position: relative;
   display: inline-block;
-  color: $raven-grey;
-  font-size: 1em;
-  letter-spacing: 0.04em;
+  color: $arapawa;
+  font-weight: normal;
+  font-size: inherit;
+  letter-spacing: 0.01em;
   text-decoration: underline;
   text-decoration-color: $steel-blue;
   text-underline-offset: 0.5em;
-
-  &::before {
-    position: absolute;
-    top: 100%;
-    content: attr(linkname);
-    opacity: 0;
-    display: block;
-    transition: 0.25s all;
-    height: 0;
-    overflow: hidden;
-    padding: 0.25em 1em;
-    background: lighten($steel-blue, 15);
-    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
-    font-size: 1.3em;
-    color: $raven-grey;
-  }
+  transition: all ease-in-out 0.2s;
 
   &:hover {
-    &::before {
-      opacity: 1;
-      display: block;
-      height: auto;
-      z-index: 10;
-    }
+    color: $raven-grey;
+    text-decoration-color: $arapawa;
+    transition: all ease-in-out 0.3s;
   }
 }
 
