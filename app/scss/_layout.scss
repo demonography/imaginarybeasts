@@ -7,6 +7,9 @@ body {
 img {
   width: 100%;
   max-width: 100%;
+  &.banner-animated {
+    max-width: 900px;
+  }
   &.face-animated {
     max-width: 200px;
     @include md {
@@ -23,13 +26,17 @@ img {
   }
 }
 
+.top-image {
+  text-align: center;
+}
+
 section {
   display: flex;
   flex-flow: row wrap;
   margin: 80px 0 160px;
 
   & > div:first-child {
-    flex: 1 1 auto;
+    // flex: 1 1 auto;
   }
 
   & > div:nth-child(3) {
@@ -39,6 +46,7 @@ section {
   @include lg {
     align-items: center;
     justify-content: space-between;
+    flex-flow: row nowrap;
 
     & > div:nth-child(3) {
       padding: 50px;

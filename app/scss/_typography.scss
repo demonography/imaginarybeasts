@@ -1,6 +1,6 @@
 body {
   font-family: "Maison Neue", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   color: $raven-grey;
 }
@@ -8,7 +8,6 @@ body {
 h1,
 .heading-display {
   font-family: "Work Sans", sans-serif;
-  text-transform: uppercase;
   font-style: normal;
   font-size: 10vw;
   line-height: 0.75em;
@@ -19,17 +18,16 @@ h1,
 
 h2,
 .heading-secondary {
-  font-family: "Work Sans", sans-serif;
-  text-transform: uppercase;
+  font-family: "Maison Neue", sans-serif;
+  font-weight: bold;
   font-style: normal;
-  font-size: 2.5em;
-  letter-spacing: 0.05em;
+  font-size: 1.25em;
 }
 
 p {
-  font-size: 1rem;
-  line-height: 1.6em;
-  letter-spacing: 0.05em;
+  font-size: 1em;
+  line-height: 1.75em;
+  letter-spacing: 0.01em;
   font-weight: 400;
 }
 
