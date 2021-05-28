@@ -64,6 +64,10 @@ section {
       grid-template-areas: ". .";
     }
   }
+  &.work-with-me {
+    padding: 4em;
+    border: 1px solid $geyser;
+  }
 }
 
 .face {
