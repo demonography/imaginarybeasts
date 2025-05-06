@@ -4,7 +4,7 @@ const pageTitle = "imaginarybeasts";
 ---
 
 <Layout pageTitle={pageTitle}>
-  <section>
+  <section class="home">
     <div class="gif">
       <img alt="a fish smooches a friend" src="/imgs/fishkiss.gif" />
     </div>
@@ -23,8 +23,9 @@ const pageTitle = "imaginarybeasts";
         traditional territories of the xʷməθkʷəy̓əm (Musqueam), Sḵwx̱wú7mesh
         (Squamish), and səlilwətaɬ (Tsleil-Waututh) Nations (so-called
         Vancouver, British Columbia). I'm currently a full time user experience
-        designer and product design manager. And a committed full time cat
-        parent 🐱
+        designer and product design manager. And a committed full time <a
+          href="/cat/">cat parent 🐱</a
+        >
       </p>
     </div>
     <div>
@@ -72,5 +73,8 @@ const pageTitle = "imaginarybeasts";
         src="imgs/trans-lives-sacred-sticker.png"
       />
     </div>
+  </section>
+  <section class="home-centered">
+    <img class="tiny-img gif" src="../imgs/Tiny_Scene_Large.gif" />
   </section>
 </Layout>
