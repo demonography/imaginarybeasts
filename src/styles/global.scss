@@ -1,0 +1,489 @@
+@use "scss/_mixins"as *;
+
+/* fonts fonts fonts */
+@font-face {
+    font-family: "Chivo";
+    src: url("../fonts/Chivo[wght].ttf") format("truetype");
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Chivo Mono";
+    src: url("../fonts/ChivoMono[wght].ttf") format("truetype");
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* Global styles */
+:root {
+    --background: #f0d5df;
+    --background-trans: radial-gradient(circle, rgba(240, 213, 223, 1) 0%, rgba(206, 224, 245, 1) 100%);
+    --background-light: #F4F4F4;
+    --highlight-color: #eff0e8;
+    --button: #78c2ad;
+    --text: #573946;
+    --text-light: #1e1e2e;
+    --text-link: #78c2ad;
+    --underline: #375a7f;
+    --header: "Chivo Mono", "Courier New", monospace;
+    --body: "Chivo", sans-serif;
+
+    --arapawa: #304b61;
+    --raven-grey: #3a4053;
+    --white-smoke: #f4f4f4;
+    --geyser: rgba(212, 219, 230, 0.8);
+    --queerblue: #85a6e4;
+}
+
+html {
+    background-color: #f0d5df;
+    background-image: linear-gradient(324deg, rgba(240, 213, 223, 1) 26%, rgba(255, 255, 255, 1) 60%, rgba(206, 224, 245, 1) 95%);
+    color: var(--text);
+}
+
+body {
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+h1,
+h2 {
+    font-family: var(--header);
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 1.4rem;
+    margin-bottom: 0;
+    font-weight: 420;
+}
+
+p {
+    font-family: var(--body);
+    font-weight: 280;
+    font-size: 1.2rem;
+    line-height: 1.75em;
+    letter-spacing: .01em;
+    hyphens: none;
+
+    &.bigly {
+        font-size: 1.35rem;
+    }
+
+    &.callout {
+        padding: 30px;
+        background-color: var(--white-smoke);
+        font-weight: 400;
+        font-size: 1rem;
+    }
+}
+
+a {
+    font-family: "Chivo Mono", "Courier New", monospace;
+    position: relative;
+    display: inline-block;
+    color: var(--arapawa);
+    font-weight: 625;
+    line-height: inherit;
+    font-size: inherit;
+    text-decoration: var(--queerblue) wavy underline 1px;
+    text-underline-offset: 0.4em;
+    transition: all ease-in-out 0.2s;
+    padding: 0.1em;
+
+    &:hover {
+        color: var(--raven-grey);
+        text-decoration-color: var(--arapawa);
+        transition: all ease-in-out 0.3s;
+    }
+}
+
+small,
+li {
+    font-family: var(--body);
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+
+    &.logoo {
+        max-width: 300px;
+    }
+
+    &.tiny-img {
+        max-width: 420px;
+    }
+
+    &.photo {
+        border-radius: 8px;
+    }
+}
+
+section {
+
+    &.home-centered {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &.home {
+
+        display: block;
+        padding: 0 40px;
+
+        div {
+            padding: 60px 0;
+        }
+
+        @include lg {
+            padding: 0 160px;
+            display: grid;
+            grid-template-columns: 1.2fr 1fr;
+            grid-template-rows: auto 1fr;
+            gap: 5em 5em;
+            grid-template-areas:
+                ". ."
+                ". .";
+
+            div {
+                padding: 0;
+            }
+        }
+
+    }
+}
+
+.page-container {
+    padding: 0 40px;
+    max-width: 1600px;
+}
+
+
+
+
+/* Navigation Bar */
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 0.8rem;
+}
+
+.navbar__title {
+    font-family: var(--header);
+    font-size: 0.75rem;
+}
+
+.navbar__menu {
+    font-family: var(--body);
+    font-size: 1.1rem;
+    text-align: right;
+}
+
+.navbar__title>a,
+.navbar__menu>a {
+    color: var(--text);
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.navbar__menu>a {
+    margin: 0 10px;
+    padding: 2px;
+}
+
+.navbar__menu>a:hover,
+.navbar__menu>a:focus {
+    text-decoration: none;
+    background-color: var(--highlight-color);
+
+}
+
+/* Gifs */
+.gif {
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+
+/* Badge */
+.badge {
+    background-color: #584966;
+    color: var(--text);
+    border-radius: 6px;
+    font-family: var(--body);
+    font-weight: 600;
+    font-size: .85rem;
+    padding: 0.3em 0.6em 0.2em;
+}
+
+.badge__list {
+    text-indent: 1rem;
+    list-style: none;
+    padding: 0;
+}
+
+.badge__list>li {
+    margin-top: 10px;
+}
+
+.badge--item {
+    border-radius: 4px;
+    font-size: 0.7rem;
+    margin-right: 5px;
+    padding: 0.5em 0.3em 0.3em 0.3em;
+}
+
+.badge__link {
+    color: var(--text-link);
+    text-decoration: none;
+}
+
+.badge__link:hover {
+    text-decoration: underline;
+}
+
+/* Cards */
+.card {
+    list-style: none;
+    display: flex;
+    background-size: 400%;
+    padding: 20px;
+}
+
+.card__link {
+    width: 100%;
+    text-decoration: none;
+    line-height: 1.4;
+    border-radius: 8px;
+    color: var(--text);
+}
+
+.card__img {
+    border-radius: 16px;
+}
+
+.card__title {
+    margin: 0;
+    font-family: var(--body);
+    font-size: 1.5rem;
+    font-weight: normal;
+    text-align: center;
+}
+
+.card__txt {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-indent: 0;
+    text-align: center;
+    margin: 0.5rem 0 0;
+}
+
+.card__link:hover {
+    transform: scale(1.05);
+}
+
+.link-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+    gap: 1rem;
+    padding: 0;
+}
+
+/* Button */
+.btn {
+    text-align: center;
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid var(--button);
+    border-radius: 8px;
+    color: var(--text);
+    font: 600 16px var(--body);
+    padding: 8px 16px;
+    transition: background-color 0.4s, color 0.4s;
+}
+
+.btn:hover {
+    background-color: var(--button);
+    color: var(--text-light);
+    cursor: pointer;
+}
+
+/* Skills */
+.skills {
+    margin-top: 8px;
+}
+
+.skills__img {
+    margin: 8px 4px;
+}
+
+/* Items */
+.center {
+    text-align: center;
+}
+
+.pro-img {
+    border-radius: 16px;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    margin: 4rem 0;
+}
+
+.footer__link {
+    color: var(--text-link);
+    text-decoration: none;
+}
+
+.footer {
+    cursor: default;
+    list-style: none;
+    padding: 0;
+}
+
+.icon__btn {
+    display: inline-block;
+    padding: 0 0.5rem;
+}
+
+.icon__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    height: 40px;
+    width: 40px;
+    text-decoration: none;
+    text-align: center;
+
+    &:hover {
+        background-color: var(--highlight-color);
+    }
+}
+
+
+/* 404 */
+.lost {
+    margin-top: 30%;
+    text-align: center;
+}
+
+.lost__header {
+    margin: 0 auto;
+    text-align: center;
+    border: 0;
+    font-size: 7.5rem;
+    letter-spacing: 10px;
+}
+
+.lost__body {
+    color: #5C5B77;
+}
+
+.lost__link {
+    color: var(--text-link);
+    text-decoration: none;
+}
+
+/* Theme Icon */
+html.light {
+    background-color: var(--background-light);
+    background-image: none;
+    color: var(--text-light);
+}
+
+.light .navbar__title>a {
+    color: var(--text-light);
+}
+
+.light .navbar__menu>a {
+    color: var(--text-light);
+}
+
+.light .card__title {
+    color: var(--text-light);
+}
+
+.light .card__txt {
+    color: var(--text-light);
+}
+
+.light .btn {
+    color: var(--text-light);
+}
+
+.light .btn:hover {
+    color: var(--text);
+}
+
+.light .icon__link {}
+
+.light .icon__link:hover {}
+
+.light .git-icon {
+    content: url("/github-mark.svg");
+}
+
+.light .mail-icon {
+    content: url("/mail.svg");
+}
+
+.light .linked-in {
+    content: url("/li-in.png");
+}
+
+.light .badge__link {
+    color: var(--text-link);
+}
+
+/* Media Query */
+@media only screen and (max-width: 600px) {
+
+    section {
+        display: block;
+    }
+
+    .navbar {
+        display: initial;
+    }
+
+    .navbar__title {
+        text-align: center;
+    }
+
+    .navbar__menu {
+        text-align: center;
+    }
+
+    .navbar__menu>a {
+        margin: 0 11px;
+    }
+
+    .skills__img {
+        height: 30px;
+        width: 30px;
+        margin: 8px 1px;
+    }
+
+    .badge__list {
+        font-size: 0.9rem;
+        text-indent: 0;
+    }
+
+    .pro-img {
+        height: auto;
+        width: 350px;
+    }
+}

@@ -1,5 +1,9 @@
 # imaginary beasts
 
-Ris's personal website.
+Ris's personal website
 
-<img width="130px" alt="animated picture of ris's head" src="https://github.com/demonography/imaginarybeasts/blob/master/app/images/ris-animated-transparent.gif">
+<p align="center">
+  <img align="center" alt="Astro" src="public/imgs/imaginarybeastscreaturesanimated.gif"/>
+</p>
+
+[![Built with Astro](https://astro.badg.es/v2/built-with-astro/tiny.svg)](https://astro.build)
