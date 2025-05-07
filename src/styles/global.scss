@@ -2,68 +2,24 @@
 
 /* fonts fonts fonts */
 @font-face {
-    font-family: "Maison Neue Light";
-    src: url("../fonts/MaisonNeue-Light.woff2") format("woff2"),
-        url("../fonts/MaisonNeue-Light.woff") format("woff"),
-        url("../fonts/MaisonNeue-Light.ttf") format("truetype");
-    font-weight: 300;
+    font-family: "Chivo";
+    src: url("../fonts/Chivo[wght].ttf") format("truetype");
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "Maison Neue Book";
-    src: url("../fonts/MaisonNeue-Book.woff2") format("woff2"),
-        url("../fonts/MaisonNeue-Book.woff") format("woff"),
-        url("../fonts/MaisonNeue-Book.ttf") format("truetype");
-    font-weight: normal;
+    font-family: "Chivo Mono";
+    src: url("../fonts/ChivoMono[wght].ttf") format("truetype");
     font-style: normal;
     font-display: swap;
 }
 
-@font-face {
-    font-family: "Maison Neue Medium";
-    src: url("../fontsMaisonNeue-Medium.woff2") format("woff2"),
-        url("../fonts/MaisonNeue-Medium.woff") format("woff"),
-        url("../fonts/MaisonNeue-Medium.ttf") format("truetype");
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Maison Neue Mono";
-    src: url("../fonts/MaisonNeue-Mono.woff2") format("woff2"),
-        url("../fonts/MaisonNeue-Mono.woff") format("woff"),
-        url("../fonts/MaisonNeue-Mono.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Maison Neue Bold";
-    src: url("../fonts/MaisonNeue-Bold.woff2") format("woff2"),
-        url("../fonts/MaisonNeue-Bold.woff") format("woff"),
-        url("../fonts/MaisonNeue-Bold.ttf") format("truetype");
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Maison Neue Demi";
-    src: url("../fonts/MaisonNeue-Demi.woff2") format("woff2"),
-        url("../fonts/MaisonNeue-Demi.woff") format("woff"),
-        url("../fonts/MaisonNeue-Demi.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
 
 /* Global styles */
 :root {
-    --background: #1e1e2e;
+    --background: #f0d5df;
+    --background-trans: radial-gradient(circle, rgba(240, 213, 223, 1) 0%, rgba(206, 224, 245, 1) 100%);
     --background-light: #F4F4F4;
     --highlight-color: #eff0e8;
     --button: #78c2ad;
@@ -71,8 +27,8 @@
     --text-light: #1e1e2e;
     --text-link: #78c2ad;
     --underline: #375a7f;
-    --header: "Maison Neue Mono", "Courier New", monospace;
-    --body: "Maison Neue Book", sans-serif;
+    --header: "Chivo Mono", "Courier New", monospace;
+    --body: "Chivo", sans-serif;
 
     --arapawa: #304b61;
     --raven-grey: #3a4053;
@@ -82,7 +38,8 @@
 }
 
 html {
-    background-color: var(--background);
+    background-color: #f0d5df;
+    background-image: linear-gradient(324deg, rgba(240, 213, 223, 1) 26%, rgba(255, 255, 255, 1) 60%, rgba(206, 224, 245, 1) 95%);
     color: var(--text);
 }
 
@@ -95,23 +52,24 @@ body {
 h1,
 h2 {
     font-family: var(--header);
-    font-weight: normal;
 }
 
 h1 {
     font-size: 2rem;
     margin: 0;
     margin-bottom: 5px;
+    font-weight: 400;
 }
 
 h2 {
     font-size: 1.4rem;
     margin-bottom: 0;
+    font-weight: 420;
 }
 
 p {
     font-family: var(--body);
-    font-weight: 400;
+    font-weight: 280;
     font-size: 1.2rem;
     line-height: 1.75em;
     letter-spacing: .01em;
@@ -119,16 +77,22 @@ p {
 
     &.bigly {
         font-size: 1.35rem;
+    }
 
+    &.callout {
+        padding: 30px;
+        background-color: var(--white-smoke);
+        font-weight: 400;
+        font-size: 1rem;
     }
 }
 
 a {
-    font-family: "Maison Neue Mono", "Courier New", monospace;
+    font-family: "Chivo Mono", "Courier New", monospace;
     position: relative;
     display: inline-block;
     color: var(--arapawa);
-    font-weight: normal;
+    font-weight: 625;
     line-height: inherit;
     font-size: inherit;
     text-decoration: var(--queerblue) wavy underline 1px;
@@ -151,6 +115,7 @@ li {
 img {
     width: 100%;
     max-width: 100%;
+    height: auto;
 
     &.logoo {
         max-width: 300px;
@@ -159,22 +124,50 @@ img {
     &.tiny-img {
         max-width: 420px;
     }
+
+    &.photo {
+        border-radius: 8px;
+    }
 }
 
 section {
-    @include lg {
-        padding: 0 160px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: .5fr 1fr;
-        gap: 5em 4em;
-        grid-template-areas:
-            ". ."
-            ". .";
+
+    &.home-centered {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
-    display: block;
+    &.home {
+
+        display: block;
+        padding: 0 40px;
+
+        div {
+            padding: 60px 0;
+        }
+
+        @include lg {
+            padding: 0 160px;
+            display: grid;
+            grid-template-columns: 1.2fr 1fr;
+            grid-template-rows: auto 1fr;
+            gap: 5em 5em;
+            grid-template-areas:
+                ". ."
+                ". .";
+
+            div {
+                padding: 0;
+            }
+        }
+
+    }
+}
+
+.page-container {
     padding: 0 40px;
+    max-width: 1600px;
 }
 
 
@@ -201,19 +194,20 @@ section {
 .navbar__title>a,
 .navbar__menu>a {
     color: var(--text);
+    font-weight: 400;
     text-decoration: none;
 }
 
 .navbar__menu>a {
     margin: 0 10px;
+    padding: 2px;
 }
 
-.navbar__title>a:hover,
 .navbar__menu>a:hover,
 .navbar__menu>a:focus {
-    text-decoration: underline var(--underline);
-    text-decoration-thickness: 2px;
-    text-underline-offset: 6px;
+    text-decoration: none;
+    background-color: var(--highlight-color);
+
 }
 
 /* Gifs */
@@ -406,6 +400,7 @@ footer {
 /* Theme Icon */
 html.light {
     background-color: var(--background-light);
+    background-image: none;
     color: var(--text-light);
 }
 
