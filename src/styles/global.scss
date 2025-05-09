@@ -23,7 +23,7 @@
     --background-light: #F4F4F4;
     --highlight-color: #eff0e8;
     --button: #78c2ad;
-    --text: #573946;
+    --text: #1e1e2e;
     --text-light: #1e1e2e;
     --text-link: #78c2ad;
     --underline: #375a7f;
@@ -38,8 +38,9 @@
 }
 
 html {
-    background-color: #f0d5df;
-    background-image: linear-gradient(324deg, rgba(240, 213, 223, 1) 26%, rgba(255, 255, 255, 1) 60%, rgba(206, 224, 245, 1) 95%);
+    // background-color: #f0d5df;
+    // background-image: linear-gradient(324deg, rgba(240, 213, 223, 1) 26%, rgba(255, 255, 255, 1) 60%, rgba(206, 224, 245, 1) 95%);
+    background-color: var(--background-light);
     color: var(--text);
 }
 
@@ -78,13 +79,6 @@ p {
     &.bigly {
         font-size: 1.35rem;
     }
-
-    &.callout {
-        padding: 30px;
-        background-color: var(--white-smoke);
-        font-weight: 400;
-        font-size: 1rem;
-    }
 }
 
 a {
@@ -95,7 +89,10 @@ a {
     font-weight: 625;
     line-height: inherit;
     font-size: inherit;
-    text-decoration: var(--queerblue) wavy underline 1px;
+    text-decoration-color: var(--queerblue);
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 1px;
     text-underline-offset: 0.4em;
     transition: all ease-in-out 0.2s;
     padding: 0.1em;
@@ -118,11 +115,15 @@ img {
     height: auto;
 
     &.logoo {
-        max-width: 300px;
+        max-width: 400px;
     }
 
     &.tiny-img {
         max-width: 420px;
+    }
+
+    &.standard-img {
+        max-width: 800px;
     }
 
     &.photo {
@@ -132,37 +133,39 @@ img {
 
 section {
 
-    &.home-centered {
+    &.page-centered {
         display: flex;
         align-items: center;
         justify-content: center;
+        text-align: center;
     }
 
-    &.home {
+    &.page-grid {
 
         display: block;
         padding: 0 40px;
 
-        div {
-            padding: 60px 0;
+        &>div {
+            padding: 30px 0;
         }
 
         @include lg {
             padding: 0 160px;
             display: grid;
-            grid-template-columns: 1.2fr 1fr;
+            grid-template-columns: 1fr 1fr;
             grid-template-rows: auto 1fr;
-            gap: 5em 5em;
+            gap: 2em 6em;
             grid-template-areas:
                 ". ."
                 ". .";
 
-            div {
-                padding: 0;
+            &>div {
+                padding: 40px 0;
             }
         }
 
     }
+
 }
 
 .page-container {
@@ -171,13 +174,39 @@ section {
 }
 
 
+.callout {
+    padding: 30px;
+    margin: 30px 0;
+    background-color: var(--white-smoke);
+    border-left: 2px dashed var(--geyser);
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+
+
+ul.linkgroup {
+    position: relative;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.8em;
+    font-size: inherit;
+    -webkit-text-decoration: rgba(212, 219, 230, .8) wavy underline 1px;
+    text-decoration: rgba(212, 219, 230, .8) wavy underline 1px;
+    text-underline-offset: .4em;
+    transition: all ease-in-out .2s;
+    padding: .1em;
+    list-style: none;
+}
 
 
 /* Navigation Bar */
 .navbar {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 4fr 1fr;
     margin-top: 0.8rem;
+    align-content: center;
 }
 
 .navbar__title {
@@ -186,9 +215,17 @@ section {
 }
 
 .navbar__menu {
-    font-family: var(--body);
-    font-size: 1.1rem;
-    text-align: right;
+    padding: 0 0 20px 0;
+
+    @include lg {
+        font-family: var(--body);
+        font-size: 1.1rem;
+        text-align: right;
+        display: block;
+        align-self: center;
+        justify-self: center;
+        padding: 0;
+    }
 }
 
 .navbar__title>a,
@@ -196,6 +233,7 @@ section {
     color: var(--text);
     font-weight: 400;
     text-decoration: none;
+    display: block;
 }
 
 .navbar__menu>a {
@@ -212,7 +250,6 @@ section {
 
 /* Gifs */
 .gif {
-    margin: 20px 0 0 0;
     text-align: center;
 }
 
@@ -375,27 +412,13 @@ footer {
 
 
 /* 404 */
-.lost {
-    margin-top: 30%;
-    text-align: center;
-}
-
 .lost__header {
     margin: 0 auto;
     text-align: center;
     border: 0;
-    font-size: 7.5rem;
-    letter-spacing: 10px;
+    font-size: 1.2rem;
 }
 
-.lost__body {
-    color: #5C5B77;
-}
-
-.lost__link {
-    color: var(--text-link);
-    text-decoration: none;
-}
 
 /* Theme Icon */
 html.light {
