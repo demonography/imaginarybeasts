@@ -15,6 +15,32 @@ const { pageTitle } = Astro.props;
     />
     <meta name="viewport" content="width=device-width" />
 
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://imaginarybeasts.net/" />
+    <meta property="og:title" content="imaginary beasts *-*" />
+    <meta
+      property="og:description"
+      content="Ris is an illustrator, interactive / product designer, and web developer. Mostly constructed out of caffeine, cat hair and cookies."
+    />
+    <meta
+      property="og:image"
+      content="https://imaginarybeasts.net/images/imaginarybeasts_social.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://imaginarybeasts.net/" />
+    <meta property="twitter:title" content="imaginary beasts *-*" />
+    <meta
+      property="twitter:description"
+      content="Ris is an illustrator, interactive / product designer, and web developer. Mostly constructed out of caffeine, cat hair and cookies."
+    />
+    <meta
+      property="twitter:image"
+      content="https://imaginarybeasts.net/images/imaginarybeasts_social.png"
+    />
+
     <link
       rel="apple-touch-icon"
       sizes="57x57"
@@ -91,8 +117,10 @@ const { pageTitle } = Astro.props;
       content="/favicon/ms-icon-144x144.png"
     />
     <meta name="theme-color" content="#ffffff" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      defer
+      src="https://cloud.umami.is/script.js"
+      data-website-id="2b6404eb-0e0f-40b0-8549-7353aba4a994"></script>
     <meta name="generator" content={Astro.generator} />
     <title>imaginary beasts *-* {pageTitle}</title>
   </head>
