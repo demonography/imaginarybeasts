@@ -68,6 +68,13 @@ h2 {
     font-weight: 420;
 }
 
+h3 {
+    font-family: var(--header);
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
 p {
     font-family: var(--body);
     font-weight: 280;
@@ -126,6 +133,10 @@ img {
         max-width: 800px;
     }
 
+    &.wide-img {
+        max-width: 1200px;
+    }
+
     &.photo {
         border-radius: 8px;
     }
@@ -182,6 +193,19 @@ section {
     border-radius: 8px;
     font-weight: 400;
     font-size: 1rem;
+}
+
+.callout-work {
+    padding: 30px;
+    margin: 40px;
+    background-color: var(--geyser);
+    border-radius: 0.75rem;
+    max-width: 680px;
+
+    p {
+        text-align: left;
+        font-size: 1rem;
+    }
 }
 
 
