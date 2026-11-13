@@ -1,4 +1,4 @@
-@use "_variables.scss" as *;
+@use "variables"as *;
 
 @mixin sm {
   @media (min-width: #{$screen-sm-min}) {

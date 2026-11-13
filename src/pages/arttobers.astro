@@ -2,25 +2,18 @@
 import { getCollection } from "astro:content";
 import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
-const allProjects = await getCollection("projects");
+const arttoberProjects = await getCollection("arttoberCollections");
 const pageTitle = "Work";
 ---
 
 <Layout pageTitle={pageTitle}>
   <div class="page-container">
-    <div class="gif">
-      <img
-        class="tiny-img"
-        alt="placeholder"
-        src="/imgs/cny-2024-washi-preview.png"
-      />
-    </div>
-    <h2>Selected Work</h2>
+    <h2>Arttobers</h2>
     <ul role="list" class="link-card-grid">
       {
-        allProjects.map((card) => (
+        arttoberProjects.map((card) => (
           <Card
-            url={`/projects/${card.slug}/`}
+            url={`/arttobers/${card.id}/`}
             image={card.data.image.url}
             title={card.data.title}
             body={card.data.description}

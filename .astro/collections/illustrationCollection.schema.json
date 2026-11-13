@@ -1,0 +1,141 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "description": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "image": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "alt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "worksImage1": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "alt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "worksImage1caption": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "worksImage2": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "alt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "worksImage2caption": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "worksImage3": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "alt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "worksImage3caption": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "worksImage4": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "alt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "worksImage4caption": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "link": {
+      "type": "string"
+    },
+    "$schema": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "image",
+    "worksImage1",
+    "worksImage2",
+    "worksImage3",
+    "worksImage4",
+    "link"
+  ]
+}

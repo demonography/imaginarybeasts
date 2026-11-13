@@ -1,5 +1,2 @@
-@import "variables";
-@import "mixins";
-
-@import "typography";
-@import "layout";
+@use "typography";
+@use "layout";

@@ -1,8 +1,4 @@
-import { defineConfig } from 'astro/config';
-
-import betterImageService from 'astro-better-image-service';
+import { defineConfig } from "astro/config";
 
 // https://astro.build/config
-export default defineConfig({
-  integrations: [betterImageService()]
-});
+export default defineConfig({});
