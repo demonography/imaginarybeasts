@@ -1,61 +1,81 @@
-body {
-  font-family: "Maison Neue", sans-serif;
-  font-size: 18px;
-  font-weight: 500;
-  color: $raven-grey;
+@use "variables"as *;
+
+/* fonts fonts fonts */
+@font-face {
+  font-family: "Chivo";
+  src: url("../../fonts/Chivo[wght].ttf") format("truetype");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Chivo Mono";
+  src: url("../../fonts/ChivoMono[wght].ttf") format("truetype");
+  font-style: normal;
+  font-display: swap;
+}
+
+// font variables
+:root {
+  --header: "Chivo Mono",
+    "Courier New",
+    monospace;
+  --body: "Chivo",
+    sans-serif;
+  --linkfont: "Chivo Mono", "Courier New",
+    monospace;
 }
 
 h1,
-.heading-display {
-  font-family: "Work Sans", sans-serif;
-  font-style: normal;
-  font-size: 10vw;
-  line-height: 0.75em;
-  letter-spacing: 0.05em;
+h2 {
+  font-family: var(--header);
+}
+
+h1 {
+  font-size: 2rem;
   margin: 0;
-  padding: 0;
+  margin-bottom: 5px;
+  font-weight: 400;
 }
 
-h2,
-.heading-secondary {
-  font-family: "Chivo", sans-serif;
-  font-weight: bold;
-  font-style: normal;
-  font-size: 1.25em;
-  margin-bottom: 1em;
+h2 {
+  font-size: 1.4rem;
+  margin-bottom: 0;
+  font-weight: 420;
 }
 
-h3,
-.heading-tertiary {
-  font-family: "Chivo", sans-serif;
-  font-weight: bold;
-  font-style: normal;
-  font-size: 1em;
-  margin-bottom: 1em;
+h3 {
+  font-family: var(--header);
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-bottom: 0;
 }
 
 p {
-  font-size: 1em;
+  font-family: var(--body);
+  font-weight: 280;
+  font-size: 1.2rem;
   line-height: 1.75em;
-  letter-spacing: 0.01em;
-  margin: 1.5em 0;
-  font-weight: 400;
+  letter-spacing: .01em;
+  hyphens: none;
 
-  &.small {
-    font-size: 0.8em;
+  &.bigly {
+    font-size: 1.35rem;
   }
 }
 
 a {
-  font-family: "Maison Neue Mono", "Courier New", monospace;
+  font-family: var(--linkfont);
   position: relative;
   display: inline-block;
   color: $arapawa;
-  font-weight: normal;
-  line-height: 1.8em;
+  font-weight: 625;
+  line-height: inherit;
   font-size: inherit;
-  letter-spacing: 0.01em;
-  text-decoration: $geyser wavy underline 1px;
+  text-decoration-color: $queerblue;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 1px;
   text-underline-offset: 0.4em;
   transition: all ease-in-out 0.2s;
   padding: 0.1em;
@@ -67,13 +87,37 @@ a {
   }
 }
 
-ul.link-group {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+small,
+li {
+  font-family: var(--body);
+}
 
-  &>li {
-    margin: 0;
-    padding: 1em 0;
+small {
+  display: block;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+
+  &.logoo {
+    max-width: 400px;
+  }
+
+  &.tiny-img {
+    max-width: 420px;
+  }
+
+  &.standard-img {
+    max-width: 800px;
+  }
+
+  &.wide-img {
+    max-width: 1200px;
+  }
+
+  &.photo {
+    border-radius: 8px;
   }
 }
